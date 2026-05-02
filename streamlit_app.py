@@ -210,10 +210,7 @@ show_edge_labels = st.sidebar.checkbox(
     value=True
 )
 
-show_physics_panel = st.sidebar.checkbox(
-    "Show PyVis tuning panel",
-    value=True
-)
+
 
 st.sidebar.markdown("---")
 st.sidebar.caption("For manual tuning, use Network graph + Show PyVis tuning panel.")
@@ -476,8 +473,7 @@ def build_pyvis_graph(
         }}
         """)
 
-    if show_physics_panel and not hierarchical:
-        net.show_buttons(filter_=["physics"])
+
 
     return net
 
@@ -678,14 +674,14 @@ else:
 
     if view_mode == "Network graph":
         net = build_pyvis_graph(
-            rows,
-            layout_mode=physics_model,
-            show_labels=show_edge_labels,
-            edge_length=edge_length,
-            node_spacing=node_spacing,
-            hierarchical=False,
-            show_physics_panel=show_physics_panel
-        )
+                rows,
+                layout_mode=physics_model,
+                show_labels=show_edge_labels,
+                edge_length=edge_length,
+                node_spacing=node_spacing,
+                hierarchical=False,
+                show_physics_panel=False
+            )
         render_graph(net)
 
     elif view_mode == "Hierarchical ownership tree":
