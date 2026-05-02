@@ -6,9 +6,9 @@ import streamlit.components.v1 as components
 import tempfile
 import os
 
-# ==============================
+# =========================================================
 # PAGE CONFIG
-# ==============================
+# =========================================================
 
 st.set_page_config(
     page_title="CSE Ownership Graph",
@@ -16,40 +16,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.markdown("""
-<style>
-.block-container {
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-@media (max-width: 768px) {
-    .block-container {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-
-    h1 {
-        font-size: 1.5rem !important;
-    }
-
-    h2, h3 {
-        font-size: 1.1rem !important;
-    }
-
-    .stMetric {
-        padding: 0.2rem;
-    }
-}
-</style>
-""", unsafe_allow_html=True)
-
 st.title("CSE Ownership Intelligence Graph")
 
-# ==============================
+# =========================================================
 # SESSION STATE
-# ==============================
+# =========================================================
 
 if "connected" not in st.session_state:
     st.session_state.connected = False
@@ -63,9 +34,9 @@ if "companies_df" not in st.session_state:
 if "owners_df" not in st.session_state:
     st.session_state.owners_df = pd.DataFrame()
 
-# ==============================
+# =========================================================
 # CONNECTION HELPERS
-# ==============================
+# =========================================================
 
 def create_driver(uri, username, password):
     driver = GraphDatabase.driver(uri, auth=(username, password))
@@ -97,9 +68,9 @@ def load_owners():
     """)
     return pd.DataFrame(rows)
 
-# ==============================
-# SIDEBAR CONNECTION FORM
-# ==============================
+# =========================================================
+# SIDEBAR LOGIN
+# =========================================================
 
 st.sidebar.header("Neo4j Aura Login")
 
@@ -140,12 +111,12 @@ if connect_clicked:
         st.sidebar.exception(e)
 
 if not st.session_state.connected:
-    st.info("Enter your Neo4j Aura URI, username and password, then click **Connect & Load Graph Data**.")
+    st.info("Enter Neo4j Aura URI, username and password, then click **Connect & Load Graph Data**.")
     st.stop()
 
-# ==============================
+# =========================================================
 # SIDEBAR FILTERS
-# ==============================
+# =========================================================
 
 st.sidebar.markdown("---")
 st.sidebar.header("Graph Filters")
@@ -160,32 +131,67 @@ search_mode = st.sidebar.selectbox(
     ]
 )
 
-max_depth = st.sidebar.slider("Relationship depth", 1, 5, 2)
+max_depth = st.sidebar.slider(
+    "Relationship depth",
+    min_value=1,
+    max_value=6,
+    value=3,
+    step=1
+)
 
 min_confidence = st.sidebar.slider(
     "Minimum confidence",
-    0.0,
-    1.0,
-    0.80,
-    0.05
+    min_value=0.0,
+    max_value=1.0,
+    value=0.75,
+    step=0.05
 )
 
 min_ownership = st.sidebar.slider(
     "Minimum ownership %",
-    0.0,
-    100.0,
-    0.0,
-    1.0
+    min_value=0.0,
+    max_value=100.0,
+    value=0.0,
+    step=1.0
 )
 
-limit = st.sidebar.slider("Max edges", 25, 500, 150, 25)
+limit = st.sidebar.slider(
+    "Max edges",
+    min_value=50,
+    max_value=3000,
+    value=1000,
+    step=50
+)
 
-# ==============================
-# GRAPH HELPERS
-# ==============================
+physics_model = st.sidebar.selectbox(
+    "Graph layout",
+    [
+        "Separated / readable",
+        "Wide spread",
+        "Compact"
+    ],
+    index=0
+)
+
+show_all_connected = st.sidebar.checkbox(
+    "Show full connected component for selected company",
+    value=True
+)
+
+show_edge_labels = st.sidebar.checkbox(
+    "Show edge labels",
+    value=True
+)
+
+st.sidebar.markdown("---")
+st.sidebar.caption("Recommended: depth 3, max edges 800–1500, layout separated.")
+
+# =========================================================
+# VISUAL HELPERS
+# =========================================================
 
 def node_color(entity_type):
-    return {
+    colors = {
         "LISTED_COMPANY": "#1f77b4",
         "UNLISTED_COMPANY": "#17becf",
         "PERSON": "#ff7f0e",
@@ -193,17 +199,19 @@ def node_color(entity_type):
         "FUND": "#9467bd",
         "INSTITUTION": "#8c564b",
         "UNKNOWN": "#7f7f7f"
-    }.get(entity_type, "#7f7f7f")
+    }
+    return colors.get(entity_type, "#7f7f7f")
 
 def edge_color(rel_type):
-    return {
+    colors = {
         "OWNS": "#2ca02c",
         "PARENT_OF": "#1f77b4",
         "SUBSIDIARY_OF": "#9467bd",
         "ASSOCIATE_OF": "#ff7f0e",
         "INVESTS_IN": "#d62728",
         "RELATED_TO": "#7f7f7f"
-    }.get(rel_type, "#7f7f7f")
+    }
+    return colors.get(rel_type, "#7f7f7f")
 
 def format_pct(x):
     if x is None:
@@ -213,9 +221,24 @@ def format_pct(x):
     except:
         return ""
 
-def build_pyvis_graph(rows):
+def node_size(entity_type):
+    if entity_type == "LISTED_COMPANY":
+        return 34
+    if entity_type == "PERSON":
+        return 28
+    if entity_type == "GOVERNMENT":
+        return 30
+    if entity_type == "UNLISTED_COMPANY":
+        return 26
+    return 22
+
+# =========================================================
+# GRAPH BUILDER
+# =========================================================
+
+def build_pyvis_graph(rows, layout_mode="Separated / readable", show_labels=True):
     net = Network(
-        height="720px",
+        height="850px",
         width="100%",
         directed=True,
         notebook=False,
@@ -223,20 +246,40 @@ def build_pyvis_graph(rows):
         font_color="#222222"
     )
 
-    net.barnes_hut(
-        gravity=-18000,
-        central_gravity=0.25,
-        spring_length=150,
-        spring_strength=0.035,
-        damping=0.1
-    )
+    # Layout controls
+    if layout_mode == "Separated / readable":
+        net.force_atlas_2based(
+            gravity=-90,
+            central_gravity=0.006,
+            spring_length=280,
+            spring_strength=0.025,
+            damping=0.65
+        )
+
+    elif layout_mode == "Wide spread":
+        net.barnes_hut(
+            gravity=-70000,
+            central_gravity=0.035,
+            spring_length=360,
+            spring_strength=0.012,
+            damping=0.12
+        )
+
+    else:
+        net.barnes_hut(
+            gravity=-12000,
+            central_gravity=0.30,
+            spring_length=120,
+            spring_strength=0.04,
+            damping=0.09
+        )
 
     added_nodes = set()
 
     for row in rows:
-        source = row["source"]
-        target = row["target"]
-        rel = row["rel"]
+        source = row.get("source", {})
+        target = row.get("target", {})
+        rel = row.get("rel", {})
 
         source_id = source.get("node_id")
         target_id = target.get("node_id")
@@ -246,6 +289,7 @@ def build_pyvis_graph(rows):
 
         for node, node_id in [(source, source_id), (target, target_id)]:
             if node_id not in added_nodes:
+                entity_type = node.get("entity_type")
                 label = node.get("cse_symbol") or node.get("name") or "Unknown"
 
                 title = f"""
@@ -253,25 +297,28 @@ def build_pyvis_graph(rows):
                 Type: {node.get('entity_type')}<br>
                 Symbol: {node.get('cse_symbol')}<br>
                 Sector: {node.get('sector')}<br>
+                Industry: {node.get('industry_group')}<br>
                 Company ID: {node.get('company_id')}
                 """
-
-                size = 30 if node.get("entity_type") == "LISTED_COMPANY" else 22
 
                 net.add_node(
                     node_id,
                     label=label,
                     title=title,
-                    color=node_color(node.get("entity_type")),
-                    size=size
+                    color=node_color(entity_type),
+                    size=node_size(entity_type)
                 )
+
                 added_nodes.add(node_id)
 
         rel_type = rel.get("relationship_type", "RELATED_TO")
         pct = rel.get("ownership_percentage")
         pct_label = format_pct(pct)
 
-        edge_label = pct_label if pct_label else rel_type
+        if show_labels:
+            edge_label = pct_label if pct_label else rel_type
+        else:
+            edge_label = ""
 
         edge_title = f"""
         <b>{rel_type}</b><br>
@@ -281,12 +328,12 @@ def build_pyvis_graph(rows):
         Date: {rel.get('data_source_date')}
         """
 
-        width = 1
+        width = 1.5
         if pct is not None:
             try:
-                width = max(1, min(8, float(pct) / 10))
+                width = max(1.5, min(9, float(pct) / 9))
             except:
-                width = 1
+                width = 1.5
 
         net.add_edge(
             source_id,
@@ -303,23 +350,26 @@ def build_pyvis_graph(rows):
       "nodes": {
         "borderWidth": 1,
         "font": {
-          "size": 15,
+          "size": 16,
           "face": "Arial"
         }
       },
       "edges": {
         "font": {
-          "size": 11,
+          "size": 12,
           "align": "middle"
         },
         "smooth": {
+          "enabled": true,
           "type": "dynamic"
         }
       },
       "physics": {
         "enabled": true,
         "stabilization": {
-          "iterations": 120
+          "enabled": true,
+          "iterations": 250,
+          "updateInterval": 25
         }
       },
       "interaction": {
@@ -343,31 +393,45 @@ def render_graph(net):
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
 
-    responsive_html = f"""
-    <div style="width:100%; overflow-x:auto;">
-        {html}
-    </div>
-    """
-
-    components.html(responsive_html, height=760, scrolling=True)
-
+    components.html(html, height=900, scrolling=True)
     os.remove(path)
 
-# ==============================
-# QUERY HELPERS
-# ==============================
+# =========================================================
+# QUERY FUNCTIONS
+# =========================================================
 
-def company_ownership_query(symbol, depth, min_conf, min_own, limit):
-    query = f"""
-    MATCH path = (source:Entity)-[rels:RELATED_TO*1..{depth}]->(target:ListedCompany)
-    WHERE target.cse_symbol = $symbol
-    UNWIND rels AS r
-    WITH DISTINCT startNode(r) AS s, r, endNode(r) AS t
-    WHERE coalesce(r.confidence, 0) >= $min_conf
-      AND coalesce(r.ownership_percentage, 0) >= $min_own
-    RETURN properties(s) AS source, properties(r) AS rel, properties(t) AS target
-    LIMIT $limit
-    """
+def company_ownership_query(symbol, depth, min_conf, min_own, limit, connected_component=True):
+    if connected_component:
+        # Undirected expansion from selected company.
+        # This shows all connected nodes around the company up to selected depth.
+        query = f"""
+        MATCH (seed:ListedCompany {{cse_symbol: $symbol}})
+        MATCH path = (seed)-[:RELATED_TO*1..{depth}]-(connected:Entity)
+        UNWIND relationships(path) AS r
+        WITH DISTINCT startNode(r) AS s, r, endNode(r) AS t
+        WHERE coalesce(r.confidence, 0) >= $min_conf
+          AND coalesce(r.ownership_percentage, 0) >= $min_own
+        RETURN
+            properties(s) AS source,
+            properties(r) AS rel,
+            properties(t) AS target
+        LIMIT $limit
+        """
+    else:
+        # Directional ownership into the selected company.
+        query = f"""
+        MATCH path = (owner:Entity)-[:RELATED_TO*1..{depth}]->(target:ListedCompany {{cse_symbol: $symbol}})
+        UNWIND relationships(path) AS r
+        WITH DISTINCT startNode(r) AS s, r, endNode(r) AS t
+        WHERE coalesce(r.confidence, 0) >= $min_conf
+          AND coalesce(r.ownership_percentage, 0) >= $min_own
+        RETURN
+            properties(s) AS source,
+            properties(r) AS rel,
+            properties(t) AS target
+        LIMIT $limit
+        """
+
     return run_query(query, {
         "symbol": symbol,
         "min_conf": min_conf,
@@ -377,15 +441,19 @@ def company_ownership_query(symbol, depth, min_conf, min_own, limit):
 
 def owner_influence_query(owner_name, depth, min_conf, min_own, limit):
     query = f"""
-    MATCH path = (source:Entity)-[rels:RELATED_TO*1..{depth}]->(target:ListedCompany)
+    MATCH path = (source:Entity)-[:RELATED_TO*1..{depth}]->(target:ListedCompany)
     WHERE toUpper(source.canonical_name) CONTAINS toUpper($owner_name)
-    UNWIND rels AS r
+    UNWIND relationships(path) AS r
     WITH DISTINCT startNode(r) AS s, r, endNode(r) AS t
     WHERE coalesce(r.confidence, 0) >= $min_conf
       AND coalesce(r.ownership_percentage, 0) >= $min_own
-    RETURN properties(s) AS source, properties(r) AS rel, properties(t) AS target
+    RETURN
+        properties(s) AS source,
+        properties(r) AS rel,
+        properties(t) AS target
     LIMIT $limit
     """
+
     return run_query(query, {
         "owner_name": owner_name,
         "min_conf": min_conf,
@@ -398,56 +466,21 @@ def full_graph_query(min_conf, min_own, limit):
     MATCH (s:Entity)-[r:RELATED_TO]->(t:Entity)
     WHERE coalesce(r.confidence, 0) >= $min_conf
       AND coalesce(r.ownership_percentage, 0) >= $min_own
-    RETURN properties(s) AS source, properties(r) AS rel, properties(t) AS target
+    RETURN
+        properties(s) AS source,
+        properties(r) AS rel,
+        properties(t) AS target
     LIMIT $limit
     """
+
     return run_query(query, {
         "min_conf": min_conf,
         "min_own": min_own,
         "limit": limit
     })
 
-# ==============================
-# MAIN APP
-# ==============================
-
-companies_df = st.session_state.companies_df
-owners_df = st.session_state.owners_df
-
-if search_mode == "Company ownership view":
-    st.subheader("Company Ownership View")
-
-    companies_df["display"] = companies_df["symbol"].fillna("") + " | " + companies_df["name"].fillna("")
-    selected = st.selectbox("Select listed company", companies_df["display"].tolist())
-    selected_symbol = selected.split(" | ")[0]
-
-    rows = company_ownership_query(
-        selected_symbol,
-        max_depth,
-        min_confidence,
-        min_ownership,
-        limit
-    )
-
-elif search_mode == "Owner influence view":
-    st.subheader("Owner Influence View")
-
-    owners_df["display"] = owners_df["name"].fillna("") + " | " + owners_df["entity_type"].fillna("")
-    selected_owner = st.selectbox("Select owner / person / institution", owners_df["display"].tolist())
-    owner_name = selected_owner.split(" | ")[0]
-
-    rows = owner_influence_query(
-        owner_name,
-        max_depth,
-        min_confidence,
-        min_ownership,
-        limit
-    )
-
-elif search_mode == "Top influential owners":
-    st.subheader("Top Influential Owners")
-
-    top_df = pd.DataFrame(run_query("""
+def top_influential_owners_query(min_conf):
+    query = """
     MATCH (owner:Entity)-[r:RELATED_TO]->(company:ListedCompany)
     WHERE coalesce(r.confidence, 0) >= $min_conf
     RETURN
@@ -457,23 +490,78 @@ elif search_mode == "Top influential owners":
         avg(r.ownership_percentage) AS avg_ownership
     ORDER BY listed_companies DESC
     LIMIT 30
-    """, {"min_conf": min_confidence}))
+    """
+    return run_query(query, {"min_conf": min_conf})
 
+# =========================================================
+# MAIN APP
+# =========================================================
+
+companies_df = st.session_state.companies_df.copy()
+owners_df = st.session_state.owners_df.copy()
+
+rows = []
+
+if search_mode == "Company ownership view":
+    st.subheader("Company Ownership View")
+
+    if companies_df.empty:
+        st.warning("No listed companies found in Neo4j.")
+        st.stop()
+
+    companies_df["display"] = companies_df["symbol"].fillna("") + " | " + companies_df["name"].fillna("")
+    selected = st.selectbox("Select listed company", companies_df["display"].tolist())
+
+    selected_symbol = selected.split(" | ")[0]
+
+    rows = company_ownership_query(
+        symbol=selected_symbol,
+        depth=max_depth,
+        min_conf=min_confidence,
+        min_own=min_ownership,
+        limit=limit,
+        connected_component=show_all_connected
+    )
+
+elif search_mode == "Owner influence view":
+    st.subheader("Owner Influence View")
+
+    if owners_df.empty:
+        st.warning("No owners found in Neo4j.")
+        st.stop()
+
+    owners_df["display"] = owners_df["name"].fillna("") + " | " + owners_df["entity_type"].fillna("")
+    selected_owner = st.selectbox("Select owner / person / institution", owners_df["display"].tolist())
+
+    owner_name = selected_owner.split(" | ")[0]
+
+    rows = owner_influence_query(
+        owner_name=owner_name,
+        depth=max_depth,
+        min_conf=min_confidence,
+        min_own=min_ownership,
+        limit=limit
+    )
+
+elif search_mode == "Top influential owners":
+    st.subheader("Top Influential Owners")
+
+    top_df = pd.DataFrame(top_influential_owners_query(min_confidence))
     st.dataframe(top_df, use_container_width=True)
 
     rows = full_graph_query(
-        min_confidence,
-        min_ownership,
-        limit
+        min_conf=min_confidence,
+        min_own=min_ownership,
+        limit=limit
     )
 
 else:
     st.subheader("Full Filtered Ownership Graph")
 
     rows = full_graph_query(
-        min_confidence,
-        min_ownership,
-        limit
+        min_conf=min_confidence,
+        min_own=min_ownership,
+        limit=limit
     )
 
 st.markdown("---")
@@ -481,12 +569,25 @@ st.markdown("---")
 if not rows:
     st.warning("No graph data found for the selected filters.")
 else:
-    col1, col2, col3 = st.columns(3)
-    col1.metric("Edges returned", len(rows))
-    col2.metric("Min confidence", min_confidence)
-    col3.metric("Min ownership %", min_ownership)
+    unique_nodes = set()
+    for r in rows:
+        if r.get("source", {}).get("node_id"):
+            unique_nodes.add(r["source"]["node_id"])
+        if r.get("target", {}).get("node_id"):
+            unique_nodes.add(r["target"]["node_id"])
 
-    net = build_pyvis_graph(rows)
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Edges returned", len(rows))
+    col2.metric("Nodes shown", len(unique_nodes))
+    col3.metric("Depth", max_depth)
+    col4.metric("Min confidence", min_confidence)
+
+    net = build_pyvis_graph(
+        rows,
+        layout_mode=physics_model,
+        show_labels=show_edge_labels
+    )
+
     render_graph(net)
 
     with st.expander("Show raw edges"):
@@ -497,6 +598,7 @@ else:
                 "relationship": r["rel"].get("relationship_type"),
                 "ownership_percentage": r["rel"].get("ownership_percentage"),
                 "target": r["target"].get("name"),
+                "target_type": r["target"].get("entity_type"),
                 "target_symbol": r["target"].get("cse_symbol"),
                 "confidence": r["rel"].get("confidence"),
                 "source_url": r["rel"].get("source_url")
