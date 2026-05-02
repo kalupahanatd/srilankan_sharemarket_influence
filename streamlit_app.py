@@ -131,6 +131,17 @@ search_mode = st.sidebar.selectbox(
     ]
 )
 
+view_mode = st.sidebar.selectbox(
+    "View type",
+    [
+        "Network graph",
+        "Hierarchical ownership tree",
+        "Ownership table",
+        "Influence path list"
+    ],
+    index=0
+)
+
 max_depth = st.sidebar.slider(
     "Relationship depth",
     min_value=1,
@@ -173,6 +184,22 @@ physics_model = st.sidebar.selectbox(
     index=0
 )
 
+edge_length = st.sidebar.slider(
+    "Edge length / spacing",
+    min_value=100,
+    max_value=800,
+    value=360,
+    step=20
+)
+
+node_spacing = st.sidebar.slider(
+    "Node repulsion",
+    min_value=-180000,
+    max_value=-5000,
+    value=-90000,
+    step=5000
+)
+
 show_all_connected = st.sidebar.checkbox(
     "Show full connected component for selected company",
     value=True
@@ -184,7 +211,7 @@ show_edge_labels = st.sidebar.checkbox(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Recommended: depth 3, max edges 800–1500, layout separated.")
+st.sidebar.caption("Recommended: Hierarchical view, depth 3, edge length 400, max edges 800–1500.")
 
 # =========================================================
 # VISUAL HELPERS
@@ -218,7 +245,7 @@ def format_pct(x):
         return ""
     try:
         return f"{float(x):.2f}%"
-    except:
+    except Exception:
         return ""
 
 def node_size(entity_type):
@@ -236,7 +263,14 @@ def node_size(entity_type):
 # GRAPH BUILDER
 # =========================================================
 
-def build_pyvis_graph(rows, layout_mode="Separated / readable", show_labels=True):
+def build_pyvis_graph(
+    rows,
+    layout_mode="Separated / readable",
+    show_labels=True,
+    edge_length=360,
+    node_spacing=-90000,
+    hierarchical=False
+):
     net = Network(
         height="850px",
         width="100%",
@@ -245,34 +279,6 @@ def build_pyvis_graph(rows, layout_mode="Separated / readable", show_labels=True
         bgcolor="#ffffff",
         font_color="#222222"
     )
-
-    # Layout controls
-    if layout_mode == "Separated / readable":
-        net.force_atlas_2based(
-            gravity=-90,
-            central_gravity=0.006,
-            spring_length=280,
-            spring_strength=0.025,
-            damping=0.65
-        )
-
-    elif layout_mode == "Wide spread":
-        net.barnes_hut(
-            gravity=-70000,
-            central_gravity=0.035,
-            spring_length=360,
-            spring_strength=0.012,
-            damping=0.12
-        )
-
-    else:
-        net.barnes_hut(
-            gravity=-12000,
-            central_gravity=0.30,
-            spring_length=120,
-            spring_strength=0.04,
-            damping=0.09
-        )
 
     added_nodes = set()
 
@@ -315,9 +321,8 @@ def build_pyvis_graph(rows, layout_mode="Separated / readable", show_labels=True
         pct = rel.get("ownership_percentage")
         pct_label = format_pct(pct)
 
-        if show_labels:
-            edge_label = pct_label if pct_label else rel_type
-        else:
+        edge_label = pct_label if pct_label else rel_type
+        if not show_labels:
             edge_label = ""
 
         edge_title = f"""
@@ -332,7 +337,7 @@ def build_pyvis_graph(rows, layout_mode="Separated / readable", show_labels=True
         if pct is not None:
             try:
                 width = max(1.5, min(9, float(pct) / 9))
-            except:
+            except Exception:
                 width = 1.5
 
         net.add_edge(
@@ -345,42 +350,117 @@ def build_pyvis_graph(rows, layout_mode="Separated / readable", show_labels=True
             arrows="to"
         )
 
-    net.set_options("""
-    {
-      "nodes": {
-        "borderWidth": 1,
-        "font": {
-          "size": 16,
-          "face": "Arial"
+    if hierarchical:
+        net.set_options(f"""
+        {{
+          "layout": {{
+            "hierarchical": {{
+              "enabled": true,
+              "direction": "UD",
+              "sortMethod": "directed",
+              "levelSeparation": {edge_length},
+              "nodeSpacing": 260,
+              "treeSpacing": 360,
+              "blockShifting": true,
+              "edgeMinimization": true,
+              "parentCentralization": true
+            }}
+          }},
+          "physics": {{
+            "enabled": false
+          }},
+          "nodes": {{
+            "borderWidth": 1,
+            "font": {{
+              "size": 16,
+              "face": "Arial"
+            }}
+          }},
+          "edges": {{
+            "font": {{
+              "size": 12,
+              "align": "middle"
+            }},
+            "smooth": {{
+              "enabled": true,
+              "type": "cubicBezier",
+              "forceDirection": "vertical",
+              "roundness": 0.4
+            }}
+          }},
+          "interaction": {{
+            "hover": true,
+            "navigationButtons": true,
+            "keyboard": true,
+            "zoomView": true,
+            "dragView": true
+          }}
+        }}
+        """)
+    else:
+        if layout_mode == "Separated / readable":
+            net.barnes_hut(
+                gravity=node_spacing,
+                central_gravity=0.03,
+                spring_length=edge_length,
+                spring_strength=0.012,
+                damping=0.12
+            )
+
+        elif layout_mode == "Wide spread":
+            net.barnes_hut(
+                gravity=int(node_spacing * 1.5),
+                central_gravity=0.02,
+                spring_length=edge_length + 120,
+                spring_strength=0.008,
+                damping=0.10
+            )
+
+        else:
+            net.barnes_hut(
+                gravity=-15000,
+                central_gravity=0.25,
+                spring_length=max(120, edge_length - 150),
+                spring_strength=0.04,
+                damping=0.09
+            )
+
+        net.set_options("""
+        {
+          "nodes": {
+            "borderWidth": 1,
+            "font": {
+              "size": 16,
+              "face": "Arial"
+            }
+          },
+          "edges": {
+            "font": {
+              "size": 12,
+              "align": "middle"
+            },
+            "smooth": {
+              "enabled": true,
+              "type": "dynamic"
+            }
+          },
+          "physics": {
+            "enabled": true,
+            "stabilization": {
+              "enabled": true,
+              "iterations": 300,
+              "updateInterval": 25
+            }
+          },
+          "interaction": {
+            "hover": true,
+            "navigationButtons": true,
+            "keyboard": true,
+            "zoomView": true,
+            "dragView": true
+          }
         }
-      },
-      "edges": {
-        "font": {
-          "size": 12,
-          "align": "middle"
-        },
-        "smooth": {
-          "enabled": true,
-          "type": "dynamic"
-        }
-      },
-      "physics": {
-        "enabled": true,
-        "stabilization": {
-          "enabled": true,
-          "iterations": 250,
-          "updateInterval": 25
-        }
-      },
-      "interaction": {
-        "hover": true,
-        "navigationButtons": true,
-        "keyboard": true,
-        "zoomView": true,
-        "dragView": true
-      }
-    }
-    """)
+        """)
 
     return net
 
@@ -402,8 +482,6 @@ def render_graph(net):
 
 def company_ownership_query(symbol, depth, min_conf, min_own, limit, connected_component=True):
     if connected_component:
-        # Undirected expansion from selected company.
-        # This shows all connected nodes around the company up to selected depth.
         query = f"""
         MATCH (seed:ListedCompany {{cse_symbol: $symbol}})
         MATCH path = (seed)-[:RELATED_TO*1..{depth}]-(connected:Entity)
@@ -418,7 +496,6 @@ def company_ownership_query(symbol, depth, min_conf, min_own, limit, connected_c
         LIMIT $limit
         """
     else:
-        # Directional ownership into the selected company.
         query = f"""
         MATCH path = (owner:Entity)-[:RELATED_TO*1..{depth}]->(target:ListedCompany {{cse_symbol: $symbol}})
         UNWIND relationships(path) AS r
@@ -582,13 +659,60 @@ else:
     col3.metric("Depth", max_depth)
     col4.metric("Min confidence", min_confidence)
 
-    net = build_pyvis_graph(
-        rows,
-        layout_mode=physics_model,
-        show_labels=show_edge_labels
-    )
+    if view_mode == "Network graph":
+        net = build_pyvis_graph(
+            rows,
+            layout_mode=physics_model,
+            show_labels=show_edge_labels,
+            edge_length=edge_length,
+            node_spacing=node_spacing,
+            hierarchical=False
+        )
+        render_graph(net)
 
-    render_graph(net)
+    elif view_mode == "Hierarchical ownership tree":
+        net = build_pyvis_graph(
+            rows,
+            layout_mode=physics_model,
+            show_labels=show_edge_labels,
+            edge_length=edge_length,
+            node_spacing=node_spacing,
+            hierarchical=True
+        )
+        render_graph(net)
+
+    elif view_mode == "Ownership table":
+        table_df = pd.DataFrame([
+            {
+                "owner": r["source"].get("name"),
+                "owner_type": r["source"].get("entity_type"),
+                "relationship": r["rel"].get("relationship_type"),
+                "ownership_%": r["rel"].get("ownership_percentage"),
+                "target": r["target"].get("name"),
+                "target_type": r["target"].get("entity_type"),
+                "target_symbol": r["target"].get("cse_symbol"),
+                "confidence": r["rel"].get("confidence"),
+                "source_url": r["rel"].get("source_url")
+            }
+            for r in rows
+        ])
+        st.dataframe(table_df, use_container_width=True)
+
+    else:
+        path_df = pd.DataFrame([
+            {
+                "from": r["source"].get("name"),
+                "from_type": r["source"].get("entity_type"),
+                "relation": r["rel"].get("relationship_type"),
+                "ownership_%": r["rel"].get("ownership_percentage"),
+                "to": r["target"].get("name"),
+                "to_type": r["target"].get("entity_type"),
+                "to_symbol": r["target"].get("cse_symbol"),
+                "confidence": r["rel"].get("confidence")
+            }
+            for r in rows
+        ])
+        st.dataframe(path_df, use_container_width=True)
 
     with st.expander("Show raw edges"):
         raw_df = pd.DataFrame([
