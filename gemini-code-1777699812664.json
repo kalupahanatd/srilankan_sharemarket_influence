@@ -1,0 +1,1370 @@
+[
+  {
+    "company_name": "THREE ACRE FARMS PLC",
+    "cse_symbol": "TAFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ceylon Grain Elevators PLC",
+        "ownership_percentage": 57.21,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.prima.com.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ceylon Grain Elevators PLC",
+      "ownership_percentage": 57.21,
+      "source": "https://www.prima.com.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Ceylon Grain Elevators PLC holds the controlling stake."
+  },
+  {
+    "company_name": "KOTMALE HOLDINGS PLC",
+    "cse_symbol": "LAMB",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Cargills Quality Dairies (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cargillsceylon.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Cargills Quality Dairies (Pvt) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.cargillsceylon.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Kotmale is a subsidiary within the Cargills group."
+  },
+  {
+    "company_name": "CONVENIENCE FOODS (LANKA) PLC",
+    "cse_symbol": "SOY",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "CBL Investments Limited",
+        "ownership_percentage": 71.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.muncheelk.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "CBL Investments Limited",
+      "ownership_percentage": 71.4,
+      "source": "https://www.muncheelk.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Part of the Ceylon Biscuits Limited (CBL) group."
+  },
+  {
+    "company_name": "TEA SMALLHOLDER FACTORIES PLC",
+    "cse_symbol": "TSML",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 37.62,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.keells.com/"
+      },
+      {
+        "shareholder_name": "Akbar Brothers",
+        "ownership_percentage": 24.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.keells.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 37.62,
+      "source": "https://www.keells.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Operates under the John Keells Group."
+  },
+  {
+    "company_name": "LION BREWERY CEYLON PLC",
+    "cse_symbol": "LION",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ceylon Beverage Holdings PLC",
+        "ownership_percentage": 52.25,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lionbeer.com/"
+      },
+      {
+        "shareholder_name": "Carlsberg Brewery Malaysia Berhad",
+        "ownership_percentage": 25.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lionbeer.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ceylon Beverage Holdings PLC",
+      "ownership_percentage": 52.25,
+      "source": "https://www.lionbeer.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Pearl Springs (Private) Limited",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.lionbeer.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Carlsberg holds a strategic minority stake."
+  },
+  {
+    "company_name": "LANKA MILK FOODS (CWE) PLC",
+    "cse_symbol": "LMF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Milford Exports (Ceylon) (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lmfgroup.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Milford Exports (Ceylon) (Pvt) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.lmfgroup.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Ambewela Livestock Company Limited",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.lmfgroup.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Harry Jayawardena's group controls LMF."
+  },
+  {
+    "company_name": "NESTLE LANKA PLC",
+    "cse_symbol": "NEST",
+    "data_source_date": "2023-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Nestlé S.A.",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.nestle.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Nestlé S.A.",
+      "ownership_percentage": 100.0,
+      "source": "https://www.nestle.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Company delisted from the CSE following a full buyout by the Swiss parent."
+  },
+  {
+    "company_name": "HAYCARB PLC",
+    "cse_symbol": "HAYC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys PLC",
+        "ownership_percentage": 67.73,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.haycarb.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys PLC",
+      "ownership_percentage": 67.73,
+      "source": "https://www.haycarb.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Puritas (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.haycarb.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Core activated carbon subsidiary of Hayleys."
+  },
+  {
+    "company_name": "CHEMANEX PLC",
+    "cse_symbol": "CHMX",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "CIC Holdings PLC",
+        "ownership_percentage": 50.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.chemanex.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "CIC Holdings PLC",
+      "ownership_percentage": 50.5,
+      "source": "https://www.chemanex.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Operates under CIC."
+  },
+  {
+    "company_name": "DILMAH CEYLON TEA COMPANY PLC",
+    "cse_symbol": "CTEA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "MJF Teas (Pvt) Ltd",
+        "ownership_percentage": 65.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.dilmahtea.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "MJF Teas (Pvt) Ltd",
+      "ownership_percentage": 65.0,
+      "source": "https://www.dilmahtea.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Holding entity for Dilmah."
+  },
+  {
+    "company_name": "INDUSTRIAL ASPHALTS (CEYLON) PLC",
+    "cse_symbol": "ASPH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Highly fragmented ownership structure; mostly retail/individual."
+  },
+  {
+    "company_name": "CIC HOLDINGS PLC",
+    "cse_symbol": "CIC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Paints & General Industries Limited",
+        "ownership_percentage": 53.31,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cic.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Paints & General Industries Limited",
+      "ownership_percentage": 53.31,
+      "source": "https://www.cic.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Chemanex PLC",
+        "ownership_percentage": 50.5,
+        "is_listed": true,
+        "cse_symbol": "CHMX",
+        "source": "https://www.cic.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Major conglomerate in agriculture/chemicals."
+  },
+  {
+    "company_name": "MORISON PLC",
+    "cse_symbol": "MORI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hemas Holdings PLC",
+        "ownership_percentage": 90.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.morison.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hemas Holdings PLC",
+      "ownership_percentage": 90.0,
+      "source": "https://www.morison.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Acquired and currently held by Hemas."
+  },
+  {
+    "company_name": "STANDARD CAPITAL PLC",
+    "cse_symbol": "SING",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Currently suspended/trading watch list on CSE."
+  },
+  {
+    "company_name": "LAXAPANA PLC",
+    "cse_symbol": "LITE",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "E B Creasy & Company PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ebcreasy.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "E B Creasy & Company PLC",
+      "ownership_percentage": null,
+      "source": "https://www.ebcreasy.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Battery manufacturer under E B Creasy."
+  },
+  {
+    "company_name": "LANKEM CEYLON PLC",
+    "cse_symbol": "LCEY",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "The Colombo Fort Land & Building PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lankem.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "The Colombo Fort Land & Building PLC",
+      "ownership_percentage": null,
+      "source": "https://www.lankem.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Lankem Developments PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "LDEV",
+        "source": "https://www.lankem.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Central entity in the Fort Land group."
+  },
+  {
+    "company_name": "UNION CHEMICALS LANKA PLC",
+    "cse_symbol": "UCAR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://ucll.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Independent chemical manufacturer."
+  },
+  {
+    "company_name": "CARSON CUMBERBATCH PLC",
+    "cse_symbol": "CARS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Bukit Darah PLC",
+        "ownership_percentage": 61.06,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Bukit Darah PLC",
+      "ownership_percentage": 61.06,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Ceylon Beverage Holdings PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "BREW",
+        "source": "https://www.carsoncumberbatch.com/"
+      },
+      {
+        "name": "Good Hope PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "GOOD",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Holding company for the Carson Group."
+  },
+  {
+    "company_name": "C T HOLDINGS PLC",
+    "cse_symbol": "CTHR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.ctholdings.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Cargills (Ceylon) PLC",
+        "ownership_percentage": 71.0,
+        "is_listed": true,
+        "cse_symbol": "CARG",
+        "source": "https://www.ctholdings.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Holding company for Cargills and related businesses."
+  },
+  {
+    "company_name": "AITKEN SPENCE PLC",
+    "cse_symbol": "SPEN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Melstacorp PLC",
+        "ownership_percentage": 50.3,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.aitkenspence.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Melstacorp PLC",
+      "ownership_percentage": 50.3,
+      "source": "https://www.aitkenspence.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Aitken Spence Hotel Holdings PLC",
+        "ownership_percentage": 71.2,
+        "is_listed": true,
+        "cse_symbol": "AHUN",
+        "source": "https://www.aitkenspence.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Melstacorp holds the controlling stake."
+  },
+  {
+    "company_name": "SUNSHINE HOLDINGS PLC",
+    "cse_symbol": "SUN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lamurep Investments Limited",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.sunshineholdings.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.sunshineholdings.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Sunshine Healthcare Lanka Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.sunshineholdings.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Holding company with healthcare, consumer goods, and energy."
+  },
+  {
+    "company_name": "RICHARD PIERIS AND COMPANY PLC",
+    "cse_symbol": "RICH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Dr. Sena Yaddehige",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.arpico.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.arpico.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Richard Pieris Exports PLC",
+        "ownership_percentage": 83.9,
+        "is_listed": true,
+        "cse_symbol": "REXP",
+        "source": "https://www.arpico.com/"
+      },
+      {
+        "name": "Kegalle Plantations PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "KGAL",
+        "source": "https://www.arpico.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Parent of the Arpico Group."
+  },
+  {
+    "company_name": "FINLAYS COLOMBO PLC",
+    "cse_symbol": "JFIN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "James Finlay Limited (UK)",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.finlays.net/"
+      }
+    ],
+    "parent_company": {
+      "name": "James Finlay Limited",
+      "ownership_percentage": 100.0,
+      "source": "https://www.finlays.net/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Fully bought out by parent company."
+  },
+  {
+    "company_name": "HEMAS HOLDINGS PLC",
+    "cse_symbol": "HHL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://hemas.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Morison PLC",
+        "ownership_percentage": 90.0,
+        "is_listed": true,
+        "cse_symbol": "MORI",
+        "source": "https://hemas.com/"
+      },
+      {
+        "name": "Hemas Consumer Brands",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://hemas.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Family-controlled conglomerate."
+  },
+  {
+    "company_name": "JOHN KEELLS HOLDINGS PLC",
+    "cse_symbol": "JKH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Broga Hill Investments Limited",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.keells.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.keells.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Ceylon Cold Stores PLC",
+        "ownership_percentage": 81.36,
+        "is_listed": true,
+        "cse_symbol": "CCS",
+        "source": "https://www.keells.com/"
+      },
+      {
+        "name": "John Keells Hotels PLC",
+        "ownership_percentage": 80.32,
+        "is_listed": true,
+        "cse_symbol": "KHL",
+        "source": "https://www.keells.com/"
+      }
+    ],
+    "associate_companies": [
+      {
+        "name": "Nations Trust Bank PLC",
+        "ownership_percentage": 19.74,
+        "is_listed": true,
+        "cse_symbol": "NTB",
+        "source": "https://www.keells.com/"
+      }
+    ],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Sri Lanka's largest listed conglomerate."
+  },
+  {
+    "company_name": "THE COLOMBO FORT LAND & BUILDING PLC",
+    "cse_symbol": "CFLB",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cflb.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Lankem Ceylon PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "LCEY",
+        "source": "https://www.cflb.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Holding company for the Fort Land group."
+  },
+  {
+    "company_name": "HAYLEYS PLC",
+    "cse_symbol": "HAYL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "K. D. D. Perera",
+        "ownership_percentage": 51.01,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.hayleys.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.hayleys.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Dipped Products PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "DIPD",
+        "source": "https://www.hayleys.com/"
+      },
+      {
+        "name": "Haycarb PLC",
+        "ownership_percentage": 67.73,
+        "is_listed": true,
+        "cse_symbol": "HAYC",
+        "source": "https://www.hayleys.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Major export conglomerate."
+  },
+  {
+    "company_name": "ASIRI HOSPITAL HOLDINGS PLC",
+    "cse_symbol": "ASIR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Softlogic Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.asirihealth.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Softlogic Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://www.asirihealth.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Asiri Surgical Hospital PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "AMSL",
+        "source": "https://www.asirihealth.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Main healthcare arm of Softlogic."
+  },
+  {
+    "company_name": "THE LANKA HOSPITALS CORPORATION PLC",
+    "cse_symbol": "LHCL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Sri Lanka Insurance Corporation Ltd",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.lankahospitals.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Sri Lanka Insurance Corporation Ltd",
+      "ownership_percentage": 51.0,
+      "source": "https://www.lankahospitals.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Lanka Hospitals Diagnostics (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.lankahospitals.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "State-owned insurer SLIC holds controlling stake."
+  },
+  {
+    "company_name": "ASIRI SURGICAL HOSPITAL PLC",
+    "cse_symbol": "AMSL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Asiri Hospital Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.asirihealth.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Asiri Hospital Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://www.asirihealth.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Subsidiary of Asiri Hospital Holdings."
+  },
+  {
+    "company_name": "CEYLON HOSPITALS PLC (DURDANS)",
+    "cse_symbol": "CHL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.durdans.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Durdans Medical and Surgical Hospital (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.durdans.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Operates Durdans Hospital."
+  },
+  {
+    "company_name": "PALM GARDEN HOTELS PLC",
+    "cse_symbol": "PALM",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Investments PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Investments PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownshotels.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Eden Hotel Lanka PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "EDEN",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Holding company for LOLC leisure sector."
+  },
+  {
+    "company_name": "EDEN HOTEL LANKA PLC",
+    "cse_symbol": "EDEN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Palm Garden Hotels PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Palm Garden Hotels PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownshotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Operates under Browns Hotels/LOLC Group."
+  },
+  {
+    "company_name": "AITKEN SPENCE HOTEL HOLDINGS PLC",
+    "cse_symbol": "AHUN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Aitken Spence PLC",
+        "ownership_percentage": 71.2,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.aitkenspencehotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Aitken Spence PLC",
+      "ownership_percentage": 71.2,
+      "source": "https://www.aitkenspencehotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Leisure arm of Aitken Spence."
+  },
+  {
+    "company_name": "BROWNS BEACH HOTELS PLC",
+    "cse_symbol": "BBH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Melstacorp PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Melstacorp PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Melstacorp/Aitken Spence group holding."
+  },
+  {
+    "company_name": "HAYLEYS LEISURE PLC",
+    "cse_symbol": "CONN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.hayleys.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys PLC",
+      "ownership_percentage": null,
+      "source": "https://www.hayleys.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "The Kingsbury PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "SERV",
+        "source": "https://www.hayleys.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Previously known as Amaya Leisure."
+  },
+  {
+    "company_name": "THE FORTRESS RESORTS PLC",
+    "cse_symbol": "RHTL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Vallibel One PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.fortressresortandspa.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Vallibel One PLC",
+      "ownership_percentage": null,
+      "source": "https://www.fortressresortandspa.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Part of the Dhammika Perera leisure portfolio."
+  },
+  {
+    "company_name": "GALADARI HOTELS (LANKA) PLC",
+    "cse_symbol": "GHLL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Galadari Brothers Co. LLC",
+        "ownership_percentage": 63.25,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.galadarihotel.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Galadari Brothers Co. LLC",
+      "ownership_percentage": 63.25,
+      "source": "https://www.galadarihotel.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Dubai-based Galadari Brothers are the main sponsors."
+  },
+  {
+    "company_name": "HOTEL DEVELOPERS (LANKA) PLC",
+    "cse_symbol": "HDEV",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Government of Sri Lanka",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Government of Sri Lanka",
+      "ownership_percentage": 100.0,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Owner of the Hilton Colombo building, fully owned by the state."
+  },
+  {
+    "company_name": "THE KINGSBURY PLC",
+    "cse_symbol": "SERV",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys Leisure PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.thekingsburyhotel.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys Leisure PLC",
+      "ownership_percentage": null,
+      "source": "https://www.thekingsburyhotel.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "City hotel owned by Hayleys Group."
+  },
+  {
+    "company_name": "HOTEL SIGIRIYA PLC",
+    "cse_symbol": "HSIG",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Investments PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Investments PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownshotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Acquired by Browns Investments along with Serendib Hotels."
+  },
+  {
+    "company_name": "CEYLON HOTELS CORPORATION PLC",
+    "cse_symbol": "CHOT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Galle Face Hotel Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.chc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Galle Face Hotel Group",
+      "ownership_percentage": null,
+      "source": "https://www.chc.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "The Kandy Hotels Company (1938) PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "KHC",
+        "source": "https://www.chc.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Controlled by Sanjeev Gardiner's GFH Group."
+  },
+  {
+    "company_name": "HUNAS HOLDINGS PLC",
+    "cse_symbol": "HUNA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Serenity Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Serenity Group",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Formerly Hunas Falls Hotels PLC, restructured."
+  },
+  {
+    "company_name": "THE KANDY HOTELS COMPANY (1938) PLC",
+    "cse_symbol": "KHC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ceylon Hotels Corporation PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.chc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ceylon Hotels Corporation PLC",
+      "ownership_percentage": null,
+      "source": "https://www.chc.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Owns the Queen's Hotel and Hotel Suisse in Kandy."
+  },
+  {
+    "company_name": "THE LIGHTHOUSE HOTEL PLC",
+    "cse_symbol": "LHL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Jetwing Hotels Management Services (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.jetwinghotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Jetwing Hotels Management Services (Pvt) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.jetwinghotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Key property in the Jetwing portfolio."
+  },
+  {
+    "company_name": "MAHAWELI REACH HOTELS PLC",
+    "cse_symbol": "MRH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Universal Enterprises Pvt Ltd",
+        "ownership_percentage": 69.83,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.mahaweli.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Universal Enterprises Pvt Ltd",
+      "ownership_percentage": 69.83,
+      "source": "https://www.mahaweli.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Maldivian resort group Universal holds the majority."
+  },
+  {
+    "company_name": "JOHN KEELLS HOTELS PLC",
+    "cse_symbol": "KHL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 80.32,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cinnamonhotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 80.32,
+      "source": "https://www.cinnamonhotels.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Trans Asia Hotels PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "TRAN",
+        "source": "https://www.cinnamonhotels.com/"
+      },
+      {
+        "name": "Asian Hotels and Properties PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "AHPL",
+        "source": "https://www.cinnamonhotels.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Holding company for Cinnamon Resorts."
+  },
+  {
+    "company_name": "MIRAMAR BEACH HOTEL PLC",
+    "cse_symbol": "MIRA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.6,
+    "validation_notes": "Inactive/suspended entity."
+  },
+  {
+    "company_name": "THE NUWARA ELIYA HOTELS COMPANY PLC",
+    "cse_symbol": "NEH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Mercantile Investments and Finance PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.grandhotelnuwaraeliya.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Mercantile Investments and Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://www.grandhotelnuwaraeliya.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Owns the Grand Hotel Nuwara Eliya."
+  },
+  {
+    "company_name": "PEGASUS HOTELS OF CEYLON PLC",
+    "cse_symbol": "PEG",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Carson Cumberbatch PLC",
+        "ownership_percentage": 89.98,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Carson Cumberbatch PLC",
+      "ownership_percentage": 89.98,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Leisure arm of Carson Cumberbatch."
+  }
+]

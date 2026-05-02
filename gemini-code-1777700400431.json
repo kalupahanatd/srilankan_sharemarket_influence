@@ -1,0 +1,1289 @@
+[
+  {
+    "company_name": "E B CREASY & COMPANY PLC",
+    "cse_symbol": "EBCR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.ebcreasy.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Muller & Phipps (Ceylon) PLC",
+        "ownership_percentage": 51.3,
+        "is_listed": true,
+        "cse_symbol": "MULL",
+        "source": "https://www.ebcreasy.com/"
+      },
+      {
+        "name": "Laxapana PLC",
+        "ownership_percentage": 51.0,
+        "is_listed": true,
+        "cse_symbol": "LITE",
+        "source": "https://www.ebcreasy.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "A well-established holding company managing multiple manufacturing and distribution entities."
+  },
+  {
+    "company_name": "COLOMBO CITY HOLDINGS PLC",
+    "cse_symbol": "PHAR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ambeon Holdings PLC",
+        "ownership_percentage": 67.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ambeongroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ambeon Holdings PLC",
+      "ownership_percentage": 67.0,
+      "source": "https://www.ambeongroup.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Real estate arm of the Ambeon Group."
+  },
+  {
+    "company_name": "HUNTERS & COMPANY PLC",
+    "cse_symbol": "HUNT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Mrs. M.C. Pietersz",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.hunters.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.hunters.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "A closely held family business."
+  },
+  {
+    "company_name": "RADIANT GEMS INTERNATIONAL PLC",
+    "cse_symbol": "RGEM",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Dispersed ownership structure."
+  },
+  {
+    "company_name": "CEYLON & FOREIGN TRADES PLC",
+    "cse_symbol": "CFT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.6,
+    "validation_notes": "Trading suspended; structure unchanged."
+  },
+  {
+    "company_name": "MULLER AND PHIPPS (CEYLON) PLC",
+    "cse_symbol": "MULL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "E. B. Creasy & Company PLC",
+        "ownership_percentage": 51.3,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ebcreasy.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "E. B. Creasy & Company PLC",
+      "ownership_percentage": 51.3,
+      "source": "https://www.ebcreasy.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Distribution arm under E B Creasy."
+  },
+  {
+    "company_name": "OFFICE EQUIPMENT PLC",
+    "cse_symbol": "OFEQ",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ceylon Printers PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ceylon Printers PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Part of the Ceylon Printers associated group."
+  },
+  {
+    "company_name": "HAYLEYS FIBRE PLC",
+    "cse_symbol": "HEXP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys PLC",
+        "ownership_percentage": 68.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.hayleysfibre.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys PLC",
+      "ownership_percentage": 68.0,
+      "source": "https://www.hayleysfibre.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Eco-solutions and fibre wing of Hayleys Group."
+  },
+  {
+    "company_name": "SINGER (SRI LANKA) PLC",
+    "cse_symbol": "SINS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys PLC",
+        "ownership_percentage": 71.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.singersl.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys PLC",
+      "ownership_percentage": 71.0,
+      "source": "https://www.singersl.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Singer Finance (Lanka) PLC",
+        "ownership_percentage": 79.9,
+        "is_listed": true,
+        "cse_symbol": "SFIN",
+        "source": "https://www.singersl.com/"
+      },
+      {
+        "name": "Regnis (Lanka) PLC",
+        "ownership_percentage": 58.29,
+        "is_listed": true,
+        "cse_symbol": "REG",
+        "source": "https://www.singersl.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Acquired by Hayleys; functions as the retail holding."
+  },
+  {
+    "company_name": "BROWN & COMPANY PLC",
+    "cse_symbol": "BRWN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "LOLC Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownsgroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "LOLC Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownsgroup.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Browns Investments PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "BIL",
+        "source": "https://www.brownsgroup.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "A critical cornerstone of the LOLC conglomerate."
+  },
+  {
+    "company_name": "C. W. MACKIE PLC",
+    "cse_symbol": "CWM",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lankem Ceylon PLC",
+        "ownership_percentage": 56.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cwmackie.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lankem Ceylon PLC",
+      "ownership_percentage": 56.5,
+      "source": "https://www.cwmackie.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "A subsidiary operating within the Fort Land / Lankem umbrella."
+  },
+  {
+    "company_name": "EASTERN MERCHANTS PLC",
+    "cse_symbol": "EMER",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "J.B.L. de Silva",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.easternmerchants.net/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.easternmerchants.net/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Commodity trading house closely held by the de Silva family."
+  },
+  {
+    "company_name": "RICHARD PIERIS EXPORTS PLC",
+    "cse_symbol": "REXP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Richard Pieris and Company PLC",
+        "ownership_percentage": 83.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.arpico.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Richard Pieris and Company PLC",
+      "ownership_percentage": 83.9,
+      "source": "https://www.arpico.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Export division of Arpico."
+  },
+  {
+    "company_name": "TESS AGRO PLC",
+    "cse_symbol": "TESS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Dispersed/individual ownership."
+  },
+  {
+    "company_name": "AMBEON HOLDINGS PLC",
+    "cse_symbol": "GREG",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ambeon Capital PLC",
+        "ownership_percentage": 81.3,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ambeongroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ambeon Capital PLC",
+      "ownership_percentage": 81.3,
+      "source": "https://www.ambeongroup.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Dankotuwa Porcelain PLC",
+        "ownership_percentage": 72.51,
+        "is_listed": true,
+        "cse_symbol": "DPL",
+        "source": "https://www.ambeongroup.com/"
+      },
+      {
+        "name": "Colombo City Holdings PLC",
+        "ownership_percentage": 67.0,
+        "is_listed": true,
+        "cse_symbol": "PHAR",
+        "source": "https://www.ambeongroup.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Holding company for Ambeon Group's operating entities."
+  },
+  {
+    "company_name": "RENUKA HOLDINGS PLC",
+    "cse_symbol": "RHL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Renuka Group Limited",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.renukagroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Renuka Group Limited",
+      "ownership_percentage": null,
+      "source": "https://www.renukagroup.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Renuka Foods PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "COCO",
+        "source": "https://www.renukagroup.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Parent holding company for the Renuka Group."
+  },
+  {
+    "company_name": "JANASHAKTHI INSURANCE PLC",
+    "cse_symbol": "JINS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Janashakthi PLC",
+        "ownership_percentage": 79.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.janashakthi.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Janashakthi PLC",
+      "ownership_percentage": 79.4,
+      "source": "https://www.janashakthi.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Life insurance provider owned by Schaffter family's Janashakthi PLC."
+  },
+  {
+    "company_name": "BANK OF CEYLON",
+    "cse_symbol": "BOC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Government of Sri Lanka",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.boc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Government of Sri Lanka",
+      "ownership_percentage": 100.0,
+      "source": "https://www.boc.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Property Development PLC",
+        "ownership_percentage": 95.55,
+        "is_listed": true,
+        "cse_symbol": "PDL",
+        "source": "https://www.boc.lk/"
+      },
+      {
+        "name": "Merchant Bank of Sri Lanka & Finance PLC",
+        "ownership_percentage": 84.53,
+        "is_listed": true,
+        "cse_symbol": "MBSL",
+        "source": "https://www.boc.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Fully state-owned premier bank; issues listed debentures."
+  },
+  {
+    "company_name": "SOFTLOGIC FINANCE PLC",
+    "cse_symbol": "CRL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Softlogic Capital PLC",
+        "ownership_percentage": 97.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://softlogicfinance.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Softlogic Capital PLC",
+      "ownership_percentage": 97.4,
+      "source": "https://softlogicfinance.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Softlogic Capital injected capital to acquire almost complete ownership."
+  },
+  {
+    "company_name": "RESUS ENERGY PLC",
+    "cse_symbol": "HPWR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://resusenergy.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Panasian Power PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "PAP",
+        "source": "https://resusenergy.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Holding company for renewable energy."
+  },
+  {
+    "company_name": "NAMAL ACUITY VALUE FUND",
+    "cse_symbol": "NAVF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "National Asset Management Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Closed-end unit trust managed by NAMAL."
+  },
+  {
+    "company_name": "RENUKA AGRI FOODS PLC",
+    "cse_symbol": "RAL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Renuka Foods PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.renukagroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Renuka Foods PLC",
+      "ownership_percentage": null,
+      "source": "https://www.renukagroup.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Export manufacturing arm of the Renuka Group."
+  },
+  {
+    "company_name": "CEYLON TEA BROKERS PLC",
+    "cse_symbol": "CTBL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Capital Alliance Holdings",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ceylonteabrokers.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Capital Alliance Holdings",
+      "ownership_percentage": null,
+      "source": "https://www.ceylonteabrokers.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Tea brokering service aligned with CAL."
+  },
+  {
+    "company_name": "VALLIBEL FINANCE PLC",
+    "cse_symbol": "VFIN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Vallibel One PLC",
+        "ownership_percentage": 51.44,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://vallibelfinance.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Vallibel One PLC",
+      "ownership_percentage": 51.44,
+      "source": "https://vallibelfinance.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Flagship finance company of Dhammika Perera's group."
+  },
+  {
+    "company_name": "SINHAPUTHRA FINANCE PLC",
+    "cse_symbol": "SFL",
+    "data_source_date": "2022-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": "Commercial Credit and Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Merged/absorbed into Commercial Credit due to regulatory action."
+  },
+  {
+    "company_name": "RAIGAM WAYAMBA SALTERNS PLC",
+    "cse_symbol": "RWSL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Raigam Marketing Services (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.raigam.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Raigam Marketing Services (Pvt) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.raigam.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Salt producer under Dr. Ravi Liyanage's Raigam group."
+  },
+  {
+    "company_name": "ODEL PLC",
+    "cse_symbol": "ODEL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Softlogic Holdings PLC",
+        "ownership_percentage": 97.7,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://odel.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Softlogic Holdings PLC",
+      "ownership_percentage": 97.7,
+      "source": "https://odel.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Ashok Pathirage acquired Odel completely into Softlogic retail."
+  },
+  {
+    "company_name": "PC HOUSE PLC",
+    "cse_symbol": "PCH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Suspended/Delisted."
+  },
+  {
+    "company_name": "CITIZENS DEVELOPMENT BUSINESS FINANCE PLC",
+    "cse_symbol": "CDB",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Janashakthi Insurance PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cdb.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cdb.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Operates independently, though Janashakthi/Schaffter holds an investment stake."
+  },
+  {
+    "company_name": "URBAN DEVELOPMENT AUTHORITY",
+    "cse_symbol": "UDA",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Government of Sri Lanka",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.uda.gov.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Government of Sri Lanka",
+      "ownership_percentage": 100.0,
+      "source": "https://www.uda.gov.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Colombo Land & Development Company PLC",
+        "ownership_percentage": 17.3,
+        "is_listed": true,
+        "cse_symbol": "CLND",
+        "source": "https://www.uda.gov.lk/"
+      },
+      {
+        "name": "On Ally Holdings PLC",
+        "ownership_percentage": 47.6,
+        "is_listed": true,
+        "cse_symbol": "ONAL",
+        "source": "https://www.uda.gov.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Statutory body, listed on CSE for debentures/bonds."
+  },
+  {
+    "company_name": "NAWALOKA HOSPITALS PLC",
+    "cse_symbol": "NHL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Jayantha Dharmadasa / Nawaloka Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.nawaloka.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Nawaloka Group",
+      "ownership_percentage": null,
+      "source": "https://www.nawaloka.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Controlled by the Dharmadasa family."
+  },
+  {
+    "company_name": "LOTUS HYDRO POWER PLC",
+    "cse_symbol": "HPFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lotus Renewable Energy Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lotus Renewable Energy Group",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Lotus group acquired the former Halcyon holding."
+  },
+  {
+    "company_name": "LAUGFS GAS PLC",
+    "cse_symbol": "LGL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Laugfs Holdings Limited",
+        "ownership_percentage": 73.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.laugfsgas.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Laugfs Holdings Limited",
+      "ownership_percentage": 73.0,
+      "source": "https://www.laugfsgas.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Main LP Gas distribution company in the Laugfs group."
+  },
+  {
+    "company_name": "BROWNS CAPITAL PLC",
+    "cse_symbol": "FLCH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Investments PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownsgroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Investments PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownsgroup.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Formally FLMC (Free Lanka), acquired and repurposed by LOLC/Browns."
+  },
+  {
+    "company_name": "PANASIAN POWER PLC",
+    "cse_symbol": "PAP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "R I L Property PLC",
+        "ownership_percentage": 62.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://panasianpower.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "R I L Property PLC",
+      "ownership_percentage": 62.0,
+      "source": "https://panasianpower.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "RIL acquired control to diversify into renewable energy."
+  },
+  {
+    "company_name": "HVA FOODS PLC",
+    "cse_symbol": "HVA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "George Steuart Teas (Pvt) Ltd",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.hvafoods.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "George Steuart Teas (Pvt) Ltd",
+      "ownership_percentage": 51.0,
+      "source": "https://www.hvafoods.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "George Steuart acquired Heladiv (HVA) to consolidate its tea export market."
+  },
+  {
+    "company_name": "SINGER FINANCE (LANKA) PLC",
+    "cse_symbol": "SFIN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Singer (Sri Lanka) PLC",
+        "ownership_percentage": 79.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.singerfinance.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Singer (Sri Lanka) PLC",
+      "ownership_percentage": 79.9,
+      "source": "https://www.singerfinance.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Financial arm of Singer SL, ultimately owned by Hayleys."
+  },
+  {
+    "company_name": "HATTON PLANTATIONS PLC",
+    "cse_symbol": "HPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lotus Renewable Energy (Pvt) Ltd",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://hattonplantations.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lotus Renewable Energy (Pvt) Ltd",
+      "ownership_percentage": 51.0,
+      "source": "https://hattonplantations.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Sunshine sold its stake to the Lotus Energy Group."
+  },
+  {
+    "company_name": "UNION BANK OF COLOMBO PLC",
+    "cse_symbol": "UBC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "CG Capital Partners Global Pte Ltd",
+        "ownership_percentage": 70.83,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.unionb.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "CG Capital Partners Global Pte Ltd",
+      "ownership_percentage": 70.83,
+      "source": "https://www.unionb.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "UB Finance PLC",
+        "ownership_percentage": 80.0,
+        "is_listed": true,
+        "cse_symbol": "UBF",
+        "source": "https://www.unionb.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Binod Chaudhary's CG Corp acquired the TPG stake to become the majority owner."
+  },
+  {
+    "company_name": "MERCANTILE INVESTMENTS AND FINANCE PLC",
+    "cse_symbol": "MERC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Nilaveli Beach Hotels (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://mi.com.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://mi.com.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "The Nuwara Eliya Hotels Company PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "NEH",
+        "source": "https://mi.com.lk/"
+      },
+      {
+        "name": "Tangerine Beach Hotels PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "TANG",
+        "source": "https://mi.com.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Ondaatjie family controls the entity, which acts as a pivot for their hotel investments."
+  },
+  {
+    "company_name": "SWARNAMAHAL FINANCIAL SERVICES PLC",
+    "cse_symbol": "SFS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "License cancelled by the Central Bank due to the ETI group collapse."
+  },
+  {
+    "company_name": "CHILAW FINANCE PLC",
+    "cse_symbol": "CFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": "Merchant Bank of Sri Lanka & Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Absorbed and amalgamated into MBSL."
+  },
+  {
+    "company_name": "BIMPUTH LANKA INVESTMENTS PLC",
+    "cse_symbol": "BLI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Daya Group (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Daya Group (Pvt) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Microfinance entity owned by Daya Gamage's group."
+  },
+  {
+    "company_name": "MULTI FINANCE PLC",
+    "cse_symbol": "MFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "HNB Finance PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "HNB Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Acquired and subjected to amalgamation/consolidation with HNB Finance (Prime group had acquired it from Fairway and then divested to HNBF)."
+  },
+  {
+    "company_name": "AMW CAPITAL LEASING AND FINANCE PLC",
+    "cse_symbol": "AMCL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Associated Motorways (Pvt) Ltd",
+        "ownership_percentage": 90.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.amwcapital.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Associated Motorways (Pvt) Ltd",
+      "ownership_percentage": 90.0,
+      "source": "https://www.amwcapital.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Captive finance company of AMW (Al-Futtaim Group)."
+  },
+  {
+    "company_name": "EXPOLANKA HOLDINGS PLC",
+    "cse_symbol": "EXPO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "SG Holdings Global Pte Ltd",
+        "ownership_percentage": 82.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.expolanka.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "SG Holdings Global Pte Ltd",
+      "ownership_percentage": 82.4,
+      "source": "https://www.expolanka.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "EFL Global",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.expolanka.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "SG Holdings initiated a share buyback and delisting process in early 2024."
+  },
+  {
+    "company_name": "ASSOCIATED MOTOR FINANCE COMPANY PLC",
+    "cse_symbol": "AMF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "N.W.D.U.M. Priyantha",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://amf.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://amf.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Family-owned; absorbed Arpico Finance Company previously."
+  },
+  {
+    "company_name": "COMMERCIAL CREDIT AND FINANCE PLC",
+    "cse_symbol": "COCR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "BG Investments (Pvt) Ltd",
+        "ownership_percentage": 49.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cclk.lk/"
+      },
+      {
+        "shareholder_name": "Group Lease Holdings Pte Ltd",
+        "ownership_percentage": 29.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cclk.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "BG Investments (Pvt) Ltd",
+      "ownership_percentage": 49.9,
+      "source": "https://www.cclk.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Trade Finance & Investments PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "TFIL",
+        "source": "https://www.cclk.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Holding structure with Thai-based Group Lease as a strategic investor."
+  },
+  {
+    "company_name": "ORIENT GARMENTS PLC",
+    "cse_symbol": "OGL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Suspended/Delisted."
+  },
+  {
+    "company_name": "BROWNS INVESTMENTS PLC",
+    "cse_symbol": "BIL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Brown & Company PLC",
+        "ownership_percentage": 46.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownsinvestments.com/"
+      },
+      {
+        "shareholder_name": "LOLC Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownsinvestments.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Brown & Company PLC",
+      "ownership_percentage": 46.0,
+      "source": "https://www.brownsinvestments.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Serendib Hotels PLC",
+        "ownership_percentage": 56.67,
+        "is_listed": true,
+        "cse_symbol": "SHOT",
+        "source": "https://www.brownsinvestments.com/"
+      },
+      {
+        "name": "Hapugastenne Plantations PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "HAPU",
+        "source": "https://www.brownsinvestments.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Aggressive acquisition arm for the LOLC/Browns conglomerate; holds major hotel and plantation assets."
+  }
+]

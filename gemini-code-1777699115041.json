@@ -1,0 +1,117 @@
+[
+  {
+    "company_name": "ALLIANCE FINANCE COMPANY PLC",
+    "cse_symbol": "ALLI",
+    "data_source_date": "2023-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Mr. R.K.E.P. de Silva",
+        "ownership_percentage": 35.22,
+        "share_count": 11867851,
+        "shareholder_type": "individual",
+        "source": "https://www.alliancefinance.lk/wp-content/uploads/2024/02/Interim-FS-Dec-2023-Final.pdf"
+      },
+      {
+        "shareholder_name": "Motor Service Station (Pvt) Ltd.",
+        "ownership_percentage": 13.64,
+        "share_count": 4594842,
+        "shareholder_type": "institutional",
+        "source": "https://www.alliancefinance.lk/wp-content/uploads/2024/02/Interim-FS-Dec-2023-Final.pdf"
+      },
+      {
+        "shareholder_name": "Mrs. D.M.E.P. Perera",
+        "ownership_percentage": 7.55,
+        "share_count": 2544909,
+        "shareholder_type": "individual",
+        "source": "https://www.alliancefinance.lk/wp-content/uploads/2024/02/Interim-FS-Dec-2023-Final.pdf"
+      },
+      {
+        "shareholder_name": "Mr. D.F.W.S.K. Perera & Mr. D.F.W. Perera",
+        "ownership_percentage": 4.24,
+        "share_count": 1427102,
+        "shareholder_type": "individual",
+        "source": "https://www.alliancefinance.lk/wp-content/uploads/2024/02/Interim-FS-Dec-2023-Final.pdf"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.alliancefinance.lk/wp-content/uploads/2024/02/Interim-FS-Dec-2023-Final.pdf"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Data extracted from the most recently available Interim Financial Statements for the nine months ended 31st December 2023 published by the company."
+  },
+  {
+    "company_name": "SOFTLOGIC LIFE INSURANCE PLC",
+    "cse_symbol": "AAIC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Softlogic Capital PLC",
+        "ownership_percentage": 51.72,
+        "share_count": 161367187,
+        "shareholder_type": "institutional",
+        "source": "https://softlogiclife.lk/wp-content/uploads/sites/3/2025/02/Softlogic-Life-Interim-Financials-24-25-Q4.pdf"
+      },
+      {
+        "shareholder_name": "Dalvik Inclusion Private Limited",
+        "ownership_percentage": 18.81,
+        "share_count": 59531790,
+        "shareholder_type": "institutional",
+        "source": "https://softlogiclife.lk/wp-content/uploads/sites/3/2025/02/Softlogic-Life-Interim-Financials-24-25-Q4.pdf"
+      },
+      {
+        "shareholder_name": "Milford Ceylon (Pvt) Ltd",
+        "ownership_percentage": 18.81,
+        "share_count": 59531790,
+        "shareholder_type": "institutional",
+        "source": "https://softlogiclife.lk/wp-content/uploads/sites/3/2025/02/Softlogic-Life-Interim-Financials-24-25-Q4.pdf"
+      }
+    ],
+    "parent_company": {
+      "name": "Softlogic Capital PLC",
+      "ownership_percentage": 51.72,
+      "source": "https://softlogiclife.lk/wp-content/uploads/sites/3/2025/02/Softlogic-Life-Interim-Financials-24-25-Q4.pdf"
+    },
+    "subsidiaries": [
+      {
+        "name": "Allianz Life Insurance Lanka Limited",
+        "ownership_percentage": 100,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://cdn.cse.lk/cmt/upload_report_file/1100_1763123170457.pdf"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Major shareholder data sourced from Q4 2024 Interim Financials. Subsidiary data verified against July 2025 CSE disclosures confirming the acquisition of Allianz Life Insurance Lanka Limited."
+  },
+  {
+    "company_name": "ARPICO FINANCE COMPANY PLC",
+    "cse_symbol": "ARPI",
+    "data_source_date": "2021-04-01",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Associated Motor Finance Company PLC",
+        "ownership_percentage": 100,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://amf.lk/our-history/"
+      }
+    ],
+    "parent_company": {
+      "name": "Associated Motor Finance Company PLC",
+      "ownership_percentage": 100,
+      "source": "https://amf.lk/our-history/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Arpico Finance Company PLC was fully acquired by and merged into Associated Motor Finance Company PLC (AMF) on April 1, 2021. The entity no longer trades separately on the CSE."
+  }
+]

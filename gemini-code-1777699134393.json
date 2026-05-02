@@ -1,0 +1,1373 @@
+[
+  {
+    "company_name": "ALLIANCE FINANCE COMPANY PLC",
+    "cse_symbol": "ALLI",
+    "data_source_date": "2023-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Mr. R.K.E.P. de Silva",
+        "ownership_percentage": 35.22,
+        "share_count": 11867851,
+        "shareholder_type": "individual",
+        "source": "https://www.alliancefinance.lk/wp-content/uploads/2024/02/Interim-FS-Dec-2023-Final.pdf"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.alliancefinance.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Data based on recent financial filings."
+  },
+  {
+    "company_name": "SOFTLOGIC LIFE INSURANCE PLC",
+    "cse_symbol": "AAIC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Softlogic Capital PLC",
+        "ownership_percentage": 51.72,
+        "share_count": 161367187,
+        "shareholder_type": "institutional",
+        "source": "https://softlogiclife.lk/wp-content/uploads/sites/3/2025/02/Softlogic-Life-Interim-Financials-24-25-Q4.pdf"
+      }
+    ],
+    "parent_company": {
+      "name": "Softlogic Capital PLC",
+      "ownership_percentage": 51.72,
+      "source": "https://softlogiclife.lk/wp-content/uploads/sites/3/2025/02/Softlogic-Life-Interim-Financials-24-25-Q4.pdf"
+    },
+    "subsidiaries": [
+      {
+        "name": "Allianz Life Insurance Lanka Limited",
+        "ownership_percentage": 100,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://cdn.cse.lk/cmt/upload_report_file/1100_1763123170457.pdf"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Sourced from Q4 2024 Interim Financials."
+  },
+  {
+    "company_name": "ARPICO FINANCE COMPANY PLC",
+    "cse_symbol": "ARPI",
+    "data_source_date": "2021-04-01",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Associated Motor Finance Company PLC",
+        "ownership_percentage": 100,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://amf.lk/our-history/"
+      }
+    ],
+    "parent_company": {
+      "name": "Associated Motor Finance Company PLC",
+      "ownership_percentage": 100,
+      "source": "https://amf.lk/our-history/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Company merged into AMF and delisted."
+  },
+  {
+    "company_name": "NATION LANKA FINANCE PLC",
+    "cse_symbol": "CSF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.5,
+    "validation_notes": "No current reliable shareholding breakdown found; pending updated filings."
+  },
+  {
+    "company_name": "HNB LIFE PLC",
+    "cse_symbol": "HASU",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hatton National Bank PLC",
+        "ownership_percentage": 59.99,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.hnbassurance.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hatton National Bank PLC",
+      "ownership_percentage": 59.99,
+      "source": "https://www.hnbassurance.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "HNB General Insurance Limited",
+        "ownership_percentage": 100,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.hnbassurance.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Also operates under HNB Assurance PLC."
+  },
+  {
+    "company_name": "HATTON NATIONAL BANK PLC",
+    "cse_symbol": "HNB",
+    "data_source_date": "2025-12-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.hnb.net/"
+    },
+    "subsidiaries": [
+      {
+        "name": "HNB Assurance PLC",
+        "ownership_percentage": 59.99,
+        "is_listed": true,
+        "cse_symbol": "HASU",
+        "source": "https://www.hnb.net/"
+      },
+      {
+        "name": "HNB Finance PLC",
+        "ownership_percentage": 51.0,
+        "is_listed": true,
+        "cse_symbol": "HNBF",
+        "source": "https://www.hnb.net/"
+      }
+    ],
+    "associate_companies": [
+      {
+        "name": "Acuity Partners (Pvt) Ltd",
+        "ownership_percentage": 50.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.hnb.net/"
+      }
+    ],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Subsidiaries identified through CSE historical filings and official structure."
+  },
+  {
+    "company_name": "ASIA CAPITAL PLC",
+    "cse_symbol": "ACAP",
+    "data_source_date": "2025-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://asiacapital.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Asia Leisure Holdings (Private) Limited",
+        "ownership_percentage": null,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://cdn.cse.lk/cmt/upload_report_file/363_1757388590473.pdf"
+      },
+      {
+        "name": "Asia Digital Entertainment (Private) Limited",
+        "ownership_percentage": null,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://cdn.cse.lk/cmt/upload_report_file/363_1757388590473.pdf"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Extracted from 2024/2025 Annual Report published on CSE."
+  },
+  {
+    "company_name": "AMANA TAKAFUL PLC",
+    "cse_symbol": "ATL",
+    "data_source_date": "2025-06-30",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.takaful.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Amana Takaful Life PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "ATLL",
+        "source": "https://cdn.cse.lk/cmt/upload_report_file/361_1755254849343.06.2025%20-%20with%20names.pdf"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Financials verified up to June 2025."
+  },
+  {
+    "company_name": "HOUSING DEVELOPMENT FINANCE CORPORATION BANK OF SRI LANKA",
+    "cse_symbol": "HDFC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "National Housing Development Authority (NHDA)",
+        "ownership_percentage": 49.73,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.hdfc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.hdfc.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "NHDA remains the primary government stakeholder."
+  },
+  {
+    "company_name": "CEYLINCO HOLDINGS PLC",
+    "cse_symbol": "CINS",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://ceylinco-insurance.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Ceylinco General Insurance Limited",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://ceylinco-insurance.com/"
+      },
+      {
+        "name": "Ceylinco Life Insurance Limited",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://ceylinco-insurance.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Holding company for General and Life insurance arms."
+  },
+  {
+    "company_name": "LANKA VENTURES PLC",
+    "cse_symbol": "LVEN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Acuity Partners (Pvt) Ltd",
+        "ownership_percentage": 79.59,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://lankaventures.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Acuity Partners (Pvt) Ltd",
+      "ownership_percentage": 79.59,
+      "source": "https://lankaventures.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "LVL Energy Fund PLC",
+        "ownership_percentage": 57.0,
+        "is_listed": true,
+        "cse_symbol": "LVEF",
+        "source": "https://lankaventures.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Acuity is a joint venture between DFCC and HNB."
+  },
+  {
+    "company_name": "LOLC HOLDINGS PLC",
+    "cse_symbol": "LOLC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ishara Nanayakkara",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.lolc.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.lolc.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "LOLC Finance PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "LOFC",
+        "source": "https://www.lolc.com/"
+      },
+      {
+        "name": "Brown & Company PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "BRWN",
+        "source": "https://www.lolc.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "LOLC is a massive conglomerate holding multiple listed entities."
+  },
+  {
+    "company_name": "COMMERCIAL BANK OF CEYLON PLC",
+    "cse_symbol": "COMB",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.combank.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Commercial Bank of Maldives",
+        "ownership_percentage": 55.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.combank.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Operating as a standalone primary bank entity."
+  },
+  {
+    "company_name": "CENTRAL FINANCE COMPANY PLC",
+    "cse_symbol": "CFIN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.centralfinance.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Central Industries PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "CIND",
+        "source": "https://www.centralfinance.lk/"
+      }
+    ],
+    "associate_companies": [
+      {
+        "name": "Nations Trust Bank PLC",
+        "ownership_percentage": 19.9,
+        "is_listed": true,
+        "cse_symbol": "NTB",
+        "source": "https://www.centralfinance.lk/"
+      }
+    ],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "CFIN historically holds a significant stake in NTB."
+  },
+  {
+    "company_name": "E-CHANNELLING PLC",
+    "cse_symbol": "ECL",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Mobitel (Pvt) Ltd",
+        "ownership_percentage": 87.59,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.echannelling.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Mobitel (Pvt) Ltd",
+      "ownership_percentage": 87.59,
+      "source": "https://www.echannelling.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Mobitel is a subsidiary of Sri Lanka Telecom PLC."
+  },
+  {
+    "company_name": "DFCC BANK PLC",
+    "cse_symbol": "DFCC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.dfcc.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "DFCC Consulting (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.dfcc.lk/"
+      },
+      {
+        "name": "Synapsys Limited",
+        "ownership_percentage": null,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.dfcc.lk/"
+      }
+    ],
+    "associate_companies": [
+      {
+        "name": "Acuity Partners (Pvt) Ltd",
+        "ownership_percentage": 50.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.dfcc.lk/"
+      }
+    ],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Standalone banking entity."
+  },
+  {
+    "company_name": "L B FINANCE PLC",
+    "cse_symbol": "LFIN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Vallibel One PLC",
+        "ownership_percentage": 73.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lbfinance.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Vallibel One PLC",
+      "ownership_percentage": 73.0,
+      "source": "https://www.lbfinance.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Dhammika Perera's Vallibel One holds the majority stake."
+  },
+  {
+    "company_name": "AIA INSURANCE LANKA PLC",
+    "cse_symbol": "CTCE",
+    "data_source_date": "2023-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "AIA Group",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.aialife.com.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "AIA Group",
+      "ownership_percentage": 100.0,
+      "source": "https://www.aialife.com.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Company operates as a wholly owned subsidiary of AIA Group."
+  },
+  {
+    "company_name": "MERCHANT BANK OF SRI LANKA & FINANCE PLC",
+    "cse_symbol": "MBSL",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Bank of Ceylon",
+        "ownership_percentage": 84.53,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.mbslbank.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Bank of Ceylon",
+      "ownership_percentage": 84.53,
+      "source": "https://www.mbslbank.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "BOC is the primary controlling entity."
+  },
+  {
+    "company_name": "NATIONS TRUST BANK PLC",
+    "cse_symbol": "NTB",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 19.74,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.nationstrust.com/"
+      },
+      {
+        "shareholder_name": "Central Finance Company PLC",
+        "ownership_percentage": 19.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.nationstrust.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.nationstrust.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Waldock Mackenzie Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.nationstrust.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Keells and Central Finance act as the two primary stakeholders."
+  },
+  {
+    "company_name": "NATIONAL DEVELOPMENT BANK PLC",
+    "cse_symbol": "NDB",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.ndbbank.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "NDB Capital Holdings",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.ndbbank.com/"
+      },
+      {
+        "name": "NDB Investment Bank",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.ndbbank.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Operates as a standalone banking group."
+  },
+  {
+    "company_name": "PAN ASIA BANKING CORPORATION PLC",
+    "cse_symbol": "PABC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "K D D Perera",
+        "ownership_percentage": 29.99,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.pabcbank.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.pabcbank.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Mr. Dhammika Perera remains the single largest shareholder."
+  },
+  {
+    "company_name": "CEYLON LEATHER PRODUCTS PLC",
+    "cse_symbol": "CLPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.6,
+    "validation_notes": "No major recent changes extracted."
+  },
+  {
+    "company_name": "LANKA REALTY INVESTMENTS PLC",
+    "cse_symbol": "ASCO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.lankarealty.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Mulberry Holdings (Pvt) Ltd",
+        "ownership_percentage": null,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.lankarealty.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Formerly known as Ascot Holdings."
+  },
+  {
+    "company_name": "DIALOG AXIATA PLC",
+    "cse_symbol": "DIAL",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Axiata Group Berhad",
+        "ownership_percentage": 82.27,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.dialog.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Axiata Group Berhad",
+      "ownership_percentage": 82.27,
+      "source": "https://www.dialog.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Dialog Broadband Networks (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.dialog.lk/"
+      },
+      {
+        "name": "Dialog Television (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.dialog.lk/"
+      },
+      {
+        "name": "Dialog Finance PLC",
+        "ownership_percentage": 99.0,
+        "is_listed": true,
+        "cse_symbol": "CALF",
+        "source": "https://www.dialog.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Axiata remains the undisputed parent entity."
+  },
+  {
+    "company_name": "PMF FINANCE PLC",
+    "cse_symbol": "PMB",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Sterling Capital Investments (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.peoplesmerchant.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Sterling Capital Investments (Pvt) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.peoplesmerchant.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Sterling acquired majority control recently."
+  },
+  {
+    "company_name": "HAYLEYS FABRIC PLC",
+    "cse_symbol": "MGT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys PLC",
+        "ownership_percentage": 58.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.hayleysfabric.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys PLC",
+      "ownership_percentage": 58.9,
+      "source": "https://www.hayleysfabric.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "South Asia Textiles Limited",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.hayleysfabric.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "MGT is an integral part of the Hayleys conglomerate."
+  },
+  {
+    "company_name": "SRI LANKA TELECOM PLC",
+    "cse_symbol": "SLTL",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Government of Sri Lanka",
+        "ownership_percentage": 49.5,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.slt.lk/"
+      },
+      {
+        "shareholder_name": "Global Telecommunications Holdings N.V",
+        "ownership_percentage": 44.98,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.slt.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.slt.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Mobitel (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.slt.lk/"
+      },
+      {
+        "name": "e-Channelling PLC",
+        "ownership_percentage": 87.59,
+        "is_listed": true,
+        "cse_symbol": "ECL",
+        "source": "https://www.slt.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Holding structure remains split between the GoSL and Global Telecommunications."
+  },
+  {
+    "company_name": "BAIRAHA FARMS PLC",
+    "cse_symbol": "BFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.bairaha.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [
+      {
+        "name": "Fortune Agro Industries (Pvt) Ltd",
+        "ownership_percentage": 50.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.bairaha.com/"
+      }
+    ],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Joint venture identified."
+  },
+  {
+    "company_name": "THE FINANCE COMPANY PLC",
+    "cse_symbol": "TFC",
+    "data_source_date": "2020-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "License cancelled by the Central Bank of Sri Lanka; non-operational."
+  },
+  {
+    "company_name": "SAMPATH BANK PLC",
+    "cse_symbol": "SAMP",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Vallibel One PLC",
+        "ownership_percentage": 14.95,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.sampath.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.sampath.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Sampath Information Technology Solutions Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.sampath.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Dhammika Perera's group holds significant interest."
+  },
+  {
+    "company_name": "BUKIT DARAH PLC",
+    "cse_symbol": "BUKI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Carson Cumberbatch PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "CARS",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Holding company for Carson Cumberbatch."
+  },
+  {
+    "company_name": "VIDULLANKA PLC",
+    "cse_symbol": "VLL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.vidullanka.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Muvumbe Hydro (U) Limited",
+        "ownership_percentage": null,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.vidullanka.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Operates hydro projects overseas as subsidiaries."
+  },
+  {
+    "company_name": "SEYLAN BANK PLC",
+    "cse_symbol": "SEYB",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Sri Lanka Insurance Corporation",
+        "ownership_percentage": 15.0,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.seylan.lk/"
+      },
+      {
+        "shareholder_name": "Brown & Company PLC",
+        "ownership_percentage": 13.87,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.seylan.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.seylan.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Seylan Developments PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "CSD",
+        "source": "https://www.seylan.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Browns Group (LOLC) maintains significant influence."
+  },
+  {
+    "company_name": "CARGILLS (CEYLON) PLC",
+    "cse_symbol": "CARG",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "C T Holdings PLC",
+        "ownership_percentage": 71.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cargillsceylon.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "C T Holdings PLC",
+      "ownership_percentage": 71.0,
+      "source": "https://www.cargillsceylon.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Cargills Bank PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": null,
+        "source": "https://www.cargillsceylon.com/"
+      },
+      {
+        "name": "Cargills Dairies",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.cargillsceylon.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "C T Holdings remains the primary parent."
+  },
+  {
+    "company_name": "CEYLON BEVERAGE HOLDINGS PLC",
+    "cse_symbol": "BREW",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Carson Cumberbatch PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Carson Cumberbatch PLC",
+      "ownership_percentage": null,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Lion Brewery (Ceylon) PLC",
+        "ownership_percentage": 52.25,
+        "is_listed": true,
+        "cse_symbol": "LION",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Holding company for the Lion Brewery operations."
+  },
+  {
+    "company_name": "VALLIBEL POWER ERATHNA PLC",
+    "cse_symbol": "VPEL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Vallibel One PLC",
+        "ownership_percentage": 19.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.vallibelpower.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.vallibelpower.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Dhammika Perera associated entities hold significant stake."
+  },
+  {
+    "company_name": "UNION ASSURANCE PLC",
+    "cse_symbol": "UAL",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 90.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://unionassurance.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 90.0,
+      "source": "https://unionassurance.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "JKH owns ~90%."
+  },
+  {
+    "company_name": "COLOMBO DOCKYARD PLC",
+    "cse_symbol": "DOCK",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Onomichi Dockyard Co. Ltd",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cdl.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Onomichi Dockyard Co. Ltd",
+      "ownership_percentage": 51.0,
+      "source": "https://www.cdl.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Onomichi Dockyard is the majority owner."
+  },
+  {
+    "company_name": "MTD WALKERS PLC",
+    "cse_symbol": "KAPI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": "MTD Capital Bhd",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Malaysian parent. Trading suspended/issues in recent years."
+  },
+  {
+    "company_name": "SENKADAGALA FINANCE PLC",
+    "cse_symbol": "SFCL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.senfin.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Family-controlled private setup historically."
+  },
+  {
+    "company_name": "LANKEM DEVELOPMENTS PLC",
+    "cse_symbol": "LDEV",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lankem Ceylon PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lankem.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lankem Ceylon PLC",
+      "ownership_percentage": null,
+      "source": "https://www.lankem.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Part of the Lankem Group."
+  },
+  {
+    "company_name": "GOOD HOPE PLC",
+    "cse_symbol": "GOOD",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Goodhope Asia Holdings Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.goodhopeholdings.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Goodhope Asia Holdings Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.goodhopeholdings.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Carson Cumberbatch palm oil plantation entity."
+  },
+  {
+    "company_name": "SMB FINANCE PLC",
+    "cse_symbol": "SEMB",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://smbfinance.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Ownership details dispersed."
+  },
+  {
+    "company_name": "CEYLON TOBACCO COMPANY PLC",
+    "cse_symbol": "CTC",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "British American Tobacco Holdings (Sri Lanka) BV",
+        "ownership_percentage": 84.13,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ceylontobaccocompany.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "British American Tobacco Holdings (Sri Lanka) BV",
+      "ownership_percentage": 84.13,
+      "source": "https://www.ceylontobaccocompany.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "BAT owns the super-majority."
+  },
+  {
+    "company_name": "DISTILLERIES COMPANY OF SRI LANKA PLC",
+    "cse_symbol": "DIST",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Melstacorp PLC",
+        "ownership_percentage": 90.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.dcslgroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Melstacorp PLC",
+      "ownership_percentage": 90.0,
+      "source": "https://www.dcslgroup.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "After internal group restructure, Melstacorp became the parent of DCSL."
+  },
+  {
+    "company_name": "CEYLON COLD STORES PLC",
+    "cse_symbol": "CCS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 81.36,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.elephanthouse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 81.36,
+      "source": "https://www.elephanthouse.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Jayamaha Farms (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.elephanthouse.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Elephant House brand owner, under JKH."
+  },
+  {
+    "company_name": "RENUKA FOODS PLC",
+    "cse_symbol": "COCO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Renuka Agro Exports Ltd",
+        "ownership_percentage": 50.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.renukagroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Renuka Agro Exports Ltd",
+      "ownership_percentage": 50.4,
+      "source": "https://www.renukagroup.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Renuka Agri Foods PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "RAL",
+        "source": "https://www.renukagroup.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Holding company for F&B sector of Renuka Group."
+  },
+  {
+    "company_name": "KEELLS FOOD PRODUCTS PLC",
+    "cse_symbol": "KFP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 89.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.keellsfoods.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 89.0,
+      "source": "https://www.keellsfoods.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Processed food arm of JKH."
+  },
+  {
+    "company_name": "HARISCHANDRA MILLS PLC",
+    "cse_symbol": "HARI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.harischandramills.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Family owned and widely distributed."
+  }
+]

@@ -1,0 +1,1207 @@
+[
+  {
+    "company_name": "LANKA WALLTILES PLC",
+    "cse_symbol": "LWL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Royal Ceramics Lanka PLC",
+        "ownership_percentage": 54.55,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lankawalltiles.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Royal Ceramics Lanka PLC",
+      "ownership_percentage": 54.55,
+      "source": "https://www.lankawalltiles.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Lanka Tiles PLC",
+        "ownership_percentage": 68.22,
+        "is_listed": true,
+        "cse_symbol": "TILE",
+        "source": "https://www.lankawalltiles.com/"
+      },
+      {
+        "name": "Lanka Ceramic PLC",
+        "ownership_percentage": 73.5,
+        "is_listed": true,
+        "cse_symbol": "CERA",
+        "source": "https://www.lankawalltiles.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Holding company for Vallibel One's tile sector operations under Royal Ceramics."
+  },
+  {
+    "company_name": "LANKA TILES PLC",
+    "cse_symbol": "TILE",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lanka Walltiles PLC",
+        "ownership_percentage": 68.22,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lankatiles.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lanka Walltiles PLC",
+      "ownership_percentage": 68.22,
+      "source": "https://www.lankatiles.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "A key subsidiary within the Royal Ceramics / Vallibel group."
+  },
+  {
+    "company_name": "LANKA ALUMINIUM INDUSTRIES PLC",
+    "cse_symbol": "LALU",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Clovis Company Limited",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.aluminium.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Clovis Company Limited",
+      "ownership_percentage": null,
+      "source": "https://www.aluminium.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Part of a privately controlled industrial group."
+  },
+  {
+    "company_name": "LANKA CERAMIC PLC",
+    "cse_symbol": "CERA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lanka Walltiles PLC",
+        "ownership_percentage": 73.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lanka Walltiles PLC",
+      "ownership_percentage": 73.5,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Subsidiary of Lanka Walltiles."
+  },
+  {
+    "company_name": "PRINTCARE PLC",
+    "cse_symbol": "CARE",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "MJF Holdings",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://printcare.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "MJF Holdings",
+      "ownership_percentage": null,
+      "source": "https://printcare.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Strongly affiliated with the Dilmah/MJF Group."
+  },
+  {
+    "company_name": "REGNIS(LANKA) PLC",
+    "cse_symbol": "REG",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Singer (Sri Lanka) PLC",
+        "ownership_percentage": 58.29,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.singersl.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Singer (Sri Lanka) PLC",
+      "ownership_percentage": 58.29,
+      "source": "https://www.singersl.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Manufacturing arm of Singer Sri Lanka."
+  },
+  {
+    "company_name": "SINGER INDUSTRIES (CEYLON) PLC",
+    "cse_symbol": "SINI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Singer (Sri Lanka) PLC",
+        "ownership_percentage": 87.72,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.singersl.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Singer (Sri Lanka) PLC",
+      "ownership_percentage": 87.72,
+      "source": "https://www.singersl.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Subsidiary of Hayleys-owned Singer SL."
+  },
+  {
+    "company_name": "SIERRA CABLES PLC",
+    "cse_symbol": "SIRA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Brown & Company PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://sierracables.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Brown & Company PLC",
+      "ownership_percentage": null,
+      "source": "https://sierracables.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Acquired by the Browns/LOLC Group."
+  },
+  {
+    "company_name": "SWADESHI INDUSTRIAL WORKS PLC",
+    "cse_symbol": "SWAD",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ms. A. M. Wijewardene",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://swadeshiherbal.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://swadeshiherbal.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Family-controlled FMCG manufacturer."
+  },
+  {
+    "company_name": "SAMSON INTERNATIONAL PLC",
+    "cse_symbol": "SIL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "DSI Samson Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.samsonint.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "DSI Samson Group",
+      "ownership_percentage": null,
+      "source": "https://www.samsonint.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Rubber manufacturing arm of the DSI Group."
+  },
+  {
+    "company_name": "UNISYST ENGINEERING PLC",
+    "cse_symbol": "ALUF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys Advantis Limited",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.hayleys.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys Advantis Limited",
+      "ownership_percentage": null,
+      "source": "https://www.hayleys.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Part of Hayleys Group's engineering/logistics wing."
+  },
+  {
+    "company_name": "ROYAL CERAMICS LANKA PLC",
+    "cse_symbol": "RCL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Vallibel One PLC",
+        "ownership_percentage": 55.96,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.rocell.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Vallibel One PLC",
+      "ownership_percentage": 55.96,
+      "source": "https://www.rocell.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Lanka Walltiles PLC",
+        "ownership_percentage": 54.55,
+        "is_listed": true,
+        "cse_symbol": "LWL",
+        "source": "https://www.rocell.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Central hub for the Vallibel group's tile and bathware sector."
+  },
+  {
+    "company_name": "INDO MALAY PLC",
+    "cse_symbol": "INDO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Goodhope Asia Holdings Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.goodhopeholdings.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Goodhope Asia Holdings Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.goodhopeholdings.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Carson Cumberbatch plantation holding."
+  },
+  {
+    "company_name": "TOKYO CEMENT COMPANY (LANKA) PLC",
+    "cse_symbol": "TKYO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Nippon Coke & Engineering Co. Ltd",
+        "ownership_percentage": 27.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.tokyocement.com/"
+      },
+      {
+        "shareholder_name": "St. Anthony's Consolidated (Pvt) Ltd",
+        "ownership_percentage": 27.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.tokyocement.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.tokyocement.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Fuji Cement Company (Lanka) Limited",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.tokyocement.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Joint venture setup."
+  },
+  {
+    "company_name": "ASIAN HOTELS & PROPERTIES PLC",
+    "cse_symbol": "AHPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 78.56,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cinnamonhotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 78.56,
+      "source": "https://www.cinnamonhotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Operates Cinnamon Grand Colombo and Crescat."
+  },
+  {
+    "company_name": "SELINSING PLC",
+    "cse_symbol": "SELI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Goodhope Asia Holdings Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.goodhopeholdings.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Goodhope Asia Holdings Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.goodhopeholdings.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Carson Cumberbatch palm oil holding."
+  },
+  {
+    "company_name": "C M HOLDINGS PLC",
+    "cse_symbol": "COLO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": "Colonial Motors (Ceylon) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Automotive and investment holding company."
+  },
+  {
+    "company_name": "LANKA ASHOK LEYLAND PLC",
+    "cse_symbol": "ASHO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ashok Leyland Limited (India)",
+        "ownership_percentage": 27.8,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://lal.lk/"
+      },
+      {
+        "shareholder_name": "Government of Sri Lanka",
+        "ownership_percentage": 27.8,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://lal.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://lal.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Long-standing joint venture."
+  },
+  {
+    "company_name": "SHALIMAR (MALAY) PLC",
+    "cse_symbol": "SHAL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Goodhope Asia Holdings Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.goodhopeholdings.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Goodhope Asia Holdings Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.goodhopeholdings.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Carson Cumberbatch palm oil holding."
+  },
+  {
+    "company_name": "BOGAWANTALAWA TEA ESTATES PLC",
+    "cse_symbol": "BOPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Metropolitan Resource Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://bogawantalawa.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Metropolitan Resource Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://bogawantalawa.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Metrocorp group handles the management."
+  },
+  {
+    "company_name": "SATHOSA MOTORS PLC",
+    "cse_symbol": "SMOT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Access Engineering PLC",
+        "ownership_percentage": 84.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.accessengplc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Access Engineering PLC",
+      "ownership_percentage": 84.4,
+      "source": "https://www.accessengplc.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Automobile arm of Access Group."
+  },
+  {
+    "company_name": "AGALAWATTE PLANTATIONS PLC",
+    "cse_symbol": "AGAL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Damro Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Damro Group",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Damro acquired the controlling stake previously held by Mackwoods."
+  },
+  {
+    "company_name": "UNITED MOTORS LANKA PLC",
+    "cse_symbol": "UML",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "R I L Property PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.unitedmotors.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "R I L Property PLC",
+      "ownership_percentage": null,
+      "source": "https://www.unitedmotors.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Unimo Enterprises Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.unitedmotors.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "RIL Property holds the controlling stake."
+  },
+  {
+    "company_name": "DIESEL & MOTOR ENGINEERING PLC",
+    "cse_symbol": "DIMO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Amaliya (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.dimolanka.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.dimolanka.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Closely held by founding families through corporate vehicles."
+  },
+  {
+    "company_name": "HORANA PLANTATIONS PLC",
+    "cse_symbol": "HOPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Vallibel Plantation Management Limited",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.horanaplantations.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Vallibel Plantation Management Limited",
+      "ownership_percentage": 51.0,
+      "source": "https://www.horanaplantations.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Part of the Hayleys / Vallibel conglomerate."
+  },
+  {
+    "company_name": "FIRST CAPITAL HOLDINGS PLC",
+    "cse_symbol": "CFVF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Janashakthi PLC",
+        "ownership_percentage": 83.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://firstcapital.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Janashakthi PLC",
+      "ownership_percentage": 83.0,
+      "source": "https://firstcapital.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "First Capital Treasuries PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "FCT",
+        "source": "https://firstcapital.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Investment banking arm of Janashakthi."
+  },
+  {
+    "company_name": "ELPITIYA PLANTATIONS PLC",
+    "cse_symbol": "ELPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Aitken Spence Plantation Managements PLC",
+        "ownership_percentage": 60.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.elpitiya.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Aitken Spence Plantation Managements PLC",
+      "ownership_percentage": 60.5,
+      "source": "https://www.elpitiya.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Aitken Spence group handles management."
+  },
+  {
+    "company_name": "BALANGODA PLANTATIONS PLC",
+    "cse_symbol": "BALA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Melstacorp PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.melstacorp.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Melstacorp PLC",
+      "ownership_percentage": null,
+      "source": "https://www.melstacorp.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Distilleries/Melstacorp group plantation."
+  },
+  {
+    "company_name": "KELANI VALLEY PLANTATIONS PLC",
+    "cse_symbol": "KVAL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Dipped Products PLC",
+        "ownership_percentage": 71.8,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.kvpl.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Dipped Products PLC",
+      "ownership_percentage": 71.8,
+      "source": "https://www.kvpl.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Hayleys Group plantation."
+  },
+  {
+    "company_name": "KEGALLE PLANTATIONS PLC",
+    "cse_symbol": "KGAL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "RPC Plantation Management Services (Pvt) Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.arpico.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "RPC Plantation Management Services (Pvt) Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.arpico.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Richard Pieris Group."
+  },
+  {
+    "company_name": "HAPUGASTENNE PLANTATIONS PLC",
+    "cse_symbol": "HAPU",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Plantations",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Plantations",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Acquired by Browns/LOLC from Finlays."
+  },
+  {
+    "company_name": "KAHAWATTE PLANTATIONS PLC",
+    "cse_symbol": "KAHA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Forbes & Walker Ltd / MJF Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.kahawatteplantations.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "MJF Group",
+      "ownership_percentage": null,
+      "source": "https://www.kahawatteplantations.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Dilmah associated plantation."
+  },
+  {
+    "company_name": "THE AUTODROME PLC",
+    "cse_symbol": "AUTO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Closely held entity; Carmichael family."
+  },
+  {
+    "company_name": "KOTAGALA PLANTATIONS PLC",
+    "cse_symbol": "KOTA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Consolidated Tea Plantations Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.kotagalaplantations.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Consolidated Tea Plantations Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.kotagalaplantations.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Lankem / Fort Land Group."
+  },
+  {
+    "company_name": "MALWATTE VALLEY PLANTATIONS PLC",
+    "cse_symbol": "MAL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Wayamba Plantation (Pvt) Ltd",
+        "ownership_percentage": 66.82,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Wayamba Plantation (Pvt) Ltd",
+      "ownership_percentage": 66.82,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Controlling interest held by Wayamba Plantation."
+  },
+  {
+    "company_name": "LANKA IOC PLC",
+    "cse_symbol": "LIOC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Indian Oil Corporation Limited",
+        "ownership_percentage": 75.12,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lankaioc.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Indian Oil Corporation Limited",
+      "ownership_percentage": 75.12,
+      "source": "https://www.lankaioc.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Indian public sector company maintains a 75% stake."
+  },
+  {
+    "company_name": "CEYLON LAND & EQUITY PLC",
+    "cse_symbol": "KZOO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.6,
+    "validation_notes": "Subject to corporate restructuring/renaming."
+  },
+  {
+    "company_name": "JOHN KEELLS PLC",
+    "cse_symbol": "JKL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 86.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.keells.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 86.9,
+      "source": "https://www.keells.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Tea/produce broking arm of JKH."
+  },
+  {
+    "company_name": "MASKELIYA PLANTATIONS PLC",
+    "cse_symbol": "MASK",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "RPC Management Services (Pvt) Ltd",
+        "ownership_percentage": 83.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.arpico.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "RPC Management Services (Pvt) Ltd",
+      "ownership_percentage": 83.4,
+      "source": "https://www.arpico.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Richard Pieris Group plantation."
+  },
+  {
+    "company_name": "UDAPUSSELLAWA PLANTATIONS PLC",
+    "cse_symbol": "UDPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Plantations",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Plantations",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Acquired by Browns/LOLC from Finlays."
+  },
+  {
+    "company_name": "TALAWAKELLE TEA ESTATES PLC",
+    "cse_symbol": "TPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys Plantation Services (Private) Limited",
+        "ownership_percentage": 74.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://talawakelleteas.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys Plantation Services (Private) Limited",
+      "ownership_percentage": 74.5,
+      "source": "https://talawakelleteas.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Top-tier Hayleys tea plantation."
+  },
+  {
+    "company_name": "KERNER HAUS GLOBAL SOLUTIONS PLC",
+    "cse_symbol": "CPRT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.5,
+    "validation_notes": "Data obscure; potentially suspended or renamed."
+  },
+  {
+    "company_name": "LAKE HOUSE PRINTERS AND PUBLISHERS PLC",
+    "cse_symbol": "LPRT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "R. S. Wijewardene",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Wijewardene family."
+  },
+  {
+    "company_name": "METROPOLITAN RESOURCE HOLDINGS PLC",
+    "cse_symbol": "MPRH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.6,
+    "validation_notes": "Holding company structure under restructuring."
+  },
+  {
+    "company_name": "MADULSIMA PLANTATIONS PLC",
+    "cse_symbol": "MADU",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Melstacorp PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.melstacorp.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Melstacorp PLC",
+      "ownership_percentage": null,
+      "source": "https://www.melstacorp.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Distilleries/Melstacorp group."
+  },
+  {
+    "company_name": "WATAWALA PLANTATIONS PLC",
+    "cse_symbol": "WATA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Estate Management Services (Pvt) Ltd",
+        "ownership_percentage": 74.24,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.sunshineholdings.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Estate Management Services (Pvt) Ltd",
+      "ownership_percentage": 74.24,
+      "source": "https://www.sunshineholdings.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Sunshine Holdings subsidiary managing palm oil."
+  },
+  {
+    "company_name": "NAMUNUKULA PLANTATIONS PLC",
+    "cse_symbol": "NAMU",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "RPC Plantation Management Services (Pvt) Ltd",
+        "ownership_percentage": 66.8,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.arpico.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "RPC Plantation Management Services (Pvt) Ltd",
+      "ownership_percentage": 66.8,
+      "source": "https://www.arpico.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Richard Pieris Group."
+  },
+  {
+    "company_name": "MERCANTILE SHIPPING COMPANY PLC",
+    "cse_symbol": "MSL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Private holding structure."
+  },
+  {
+    "company_name": "PARAGON CEYLON PLC",
+    "cse_symbol": "PARA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Small print/stationery business, closely held."
+  },
+  {
+    "company_name": "GESTETNER OF CEYLON PLC",
+    "cse_symbol": "GEST",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Gestetner Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.gestetnersl.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Gestetner Group",
+      "ownership_percentage": null,
+      "source": "https://www.gestetnersl.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Family/closely held office automation provider."
+  }
+]

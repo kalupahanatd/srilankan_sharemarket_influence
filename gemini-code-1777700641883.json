@@ -1,0 +1,1259 @@
+[
+  {
+    "company_name": "ABANS FINANCE PLC",
+    "cse_symbol": "AFSL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Softlogic Capital PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Softlogic Capital PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Abans Finance was acquired by Softlogic Capital and subjected to amalgamation."
+  },
+  {
+    "company_name": "TEEJAY LANKA PLC",
+    "cse_symbol": "TJL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Brandix Lanka Limited",
+        "ownership_percentage": 32.88,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.teejay.com/"
+      },
+      {
+        "shareholder_name": "Pacific Textured Jersey Holdings Ltd",
+        "ownership_percentage": 27.6,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.teejay.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.teejay.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Joint venture predominantly controlled by Brandix and Pacific Textiles."
+  },
+  {
+    "company_name": "JANASHAKTHI FINANCE PLC",
+    "cse_symbol": "BFN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Janashakthi PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.janashakthi.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Janashakthi PLC",
+      "ownership_percentage": null,
+      "source": "https://www.janashakthi.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Part of the Schaffter family's Janashakthi group consolidation."
+  },
+  {
+    "company_name": "SOFTLOGIC HOLDINGS PLC",
+    "cse_symbol": "SHL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "A. K. Pathirage",
+        "ownership_percentage": 40.5,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.softlogic.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.softlogic.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Softlogic Capital PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "SCAP",
+        "source": "https://www.softlogic.lk/"
+      },
+      {
+        "name": "Asiri Hospital Holdings PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "ASIR",
+        "source": "https://www.softlogic.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Ashok Pathirage is the founder and controlling shareholder."
+  },
+  {
+    "company_name": "LOLC DEVELOPMENT FINANCE PLC",
+    "cse_symbol": "NIFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "LOLC Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lolc.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "LOLC Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://www.lolc.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Subject to LOLC Group internal finance sector amalgamations."
+  },
+  {
+    "company_name": "VALLIBEL ONE PLC",
+    "cse_symbol": "VONE",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "K. D. D. Perera",
+        "ownership_percentage": 63.5,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.vallibelone.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.vallibelone.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Royal Ceramics Lanka PLC",
+        "ownership_percentage": 55.96,
+        "is_listed": true,
+        "cse_symbol": "RCL",
+        "source": "https://www.vallibelone.com/"
+      },
+      {
+        "name": "L B Finance PLC",
+        "ownership_percentage": 73.0,
+        "is_listed": true,
+        "cse_symbol": "LFIN",
+        "source": "https://www.vallibelone.com/"
+      }
+    ],
+    "associate_companies": [
+      {
+        "name": "Sampath Bank PLC",
+        "ownership_percentage": 14.95,
+        "is_listed": true,
+        "cse_symbol": "SAMP",
+        "source": "https://www.vallibelone.com/"
+      }
+    ],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Dhammika Perera's flagship holding company."
+  },
+  {
+    "company_name": "CENTRAL INVESTMENTS & FINANCE PLC",
+    "cse_symbol": "CIFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "License cancelled by CBSL; entity in liquidation/suspended."
+  },
+  {
+    "company_name": "LOLC FINANCE PLC",
+    "cse_symbol": "LOFC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "LOLC Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.lolcfinance.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "LOLC Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://www.lolcfinance.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Absorbed Commercial Leasing & Finance (CLC) recently."
+  },
+  {
+    "company_name": "PEOPLE'S LEASING & FINANCE PLC",
+    "cse_symbol": "PLC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "People's Bank",
+        "ownership_percentage": 75.0,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.plc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "People's Bank",
+      "ownership_percentage": 75.0,
+      "source": "https://www.plc.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "People's Insurance PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "PINS",
+        "source": "https://www.plc.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Majority owned by the state-owned People's Bank."
+  },
+  {
+    "company_name": "SOFTLOGIC CAPITAL PLC",
+    "cse_symbol": "SCAP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Softlogic Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://softlogiccapital.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Softlogic Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://softlogiccapital.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Softlogic Life Insurance PLC",
+        "ownership_percentage": 51.72,
+        "is_listed": true,
+        "cse_symbol": "AAIC",
+        "source": "https://softlogiccapital.lk/"
+      },
+      {
+        "name": "Softlogic Finance PLC",
+        "ownership_percentage": 97.4,
+        "is_listed": true,
+        "cse_symbol": "CRL",
+        "source": "https://softlogiccapital.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Financial services holding company for Softlogic Group."
+  },
+  {
+    "company_name": "DFCC VARDHANA BANK PLC",
+    "cse_symbol": "DVBD",
+    "data_source_date": "2015-10-01",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": "DFCC Bank PLC",
+      "ownership_percentage": 100.0,
+      "source": "https://www.dfcc.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Amalgamated with DFCC Bank PLC and ceased to exist as a separate listed entity."
+  },
+  {
+    "company_name": "TRADE FINANCE & INVESTMENTS PLC",
+    "cse_symbol": "TFIL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Commercial Credit and Finance PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cclk.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Commercial Credit and Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cclk.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Acquired by Commercial Credit and Finance."
+  },
+  {
+    "company_name": "DIALOG FINANCE PLC",
+    "cse_symbol": "CALF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Dialog Axiata PLC",
+        "ownership_percentage": 99.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.dialog.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Dialog Axiata PLC",
+      "ownership_percentage": 99.0,
+      "source": "https://www.dialog.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Fintech arm of Dialog Axiata."
+  },
+  {
+    "company_name": "ENTRUST SECURITIES PLC",
+    "cse_symbol": "ESL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Suspended entity by CBSL/CSE."
+  },
+  {
+    "company_name": "PC PHARMA PLC",
+    "cse_symbol": "PCP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Suspended/Delisted."
+  },
+  {
+    "company_name": "WASKADUWA BEACH RESORT PLC",
+    "cse_symbol": "CITW",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Citrus Leisure PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.citrusleisure.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Citrus Leisure PLC",
+      "ownership_percentage": null,
+      "source": "https://www.citrusleisure.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Citrus group property."
+  },
+  {
+    "company_name": "KALPITIYA BEACH RESORT PLC",
+    "cse_symbol": "CITK",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Citrus Leisure PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.citrusleisure.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Citrus Leisure PLC",
+      "ownership_percentage": null,
+      "source": "https://www.citrusleisure.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Citrus group property."
+  },
+  {
+    "company_name": "ASIA ASSET FINANCE PLC",
+    "cse_symbol": "AAF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Muthoot Finance Limited",
+        "ownership_percentage": 72.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://asiaassetfinance.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Muthoot Finance Limited",
+      "ownership_percentage": 72.9,
+      "source": "https://asiaassetfinance.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Indian gold loan giant Muthoot Finance controls the entity."
+  },
+  {
+    "company_name": "AGSTAR PLC",
+    "cse_symbol": "AGST",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Investments PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownsinvestments.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Investments PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownsinvestments.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Agri-business controlled by Browns/LOLC."
+  },
+  {
+    "company_name": "ACCESS ENGINEERING PLC",
+    "cse_symbol": "AEL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "S. J. S. Perera",
+        "ownership_percentage": 25.0,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.accessengplc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.accessengplc.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Sathosa Motors PLC",
+        "ownership_percentage": 84.4,
+        "is_listed": true,
+        "cse_symbol": "SMOT",
+        "source": "https://www.accessengplc.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Sumal Perera remains the primary shareholder."
+  },
+  {
+    "company_name": "GREENTECH ENERGY PLC",
+    "cse_symbol": "MEL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Data obscure; potential private or suspended entity."
+  },
+  {
+    "company_name": "RAMBODA FALLS PLC",
+    "cse_symbol": "RFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "L. S. Sigera",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.rambodafalls.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.rambodafalls.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Family-run boutique hotel property."
+  },
+  {
+    "company_name": "ADAM CAPITAL PLC",
+    "cse_symbol": "PCHH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Suspended due to non-compliance/liquidation."
+  },
+  {
+    "company_name": "ORIENT FINANCE PLC REMOVED",
+    "cse_symbol": "ORIN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Janashakthi PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://orient.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Janashakthi PLC",
+      "ownership_percentage": null,
+      "source": "https://orient.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Orient Finance is part of the Janashakthi Group's financial services."
+  },
+  {
+    "company_name": "COMMERCIAL LEASING & FINANCE PLC",
+    "cse_symbol": "CLC",
+    "data_source_date": "2022-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": "LOLC Finance PLC",
+      "ownership_percentage": 100.0,
+      "source": "https://www.lolcfinance.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Amalgamated into LOLC Finance PLC and delisted."
+  },
+  {
+    "company_name": "SANASA DEVELOPMENT BANK PLC",
+    "cse_symbol": "SDB",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "SBI Emerging Asia Financial Sector Fund Pte. Ltd",
+        "ownership_percentage": 11.5,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.sdb.lk/"
+      },
+      {
+        "shareholder_name": "Nederlandse Financierings-Maatschappij Voor Ontwikkelingslanden N.V. (FMO)",
+        "ownership_percentage": 9.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.sdb.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.sdb.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Diverse shareholding with significant foreign developmental funds."
+  },
+  {
+    "company_name": "AMBEON CAPITAL PLC",
+    "cse_symbol": "TAP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "CHC Investment (Pvt) Ltd",
+        "ownership_percentage": 50.1,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ambeongroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "CHC Investment (Pvt) Ltd",
+      "ownership_percentage": 50.1,
+      "source": "https://www.ambeongroup.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Ambeon Holdings PLC",
+        "ownership_percentage": 81.3,
+        "is_listed": true,
+        "cse_symbol": "GREG",
+        "source": "https://www.ambeongroup.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Ultimate parent of the Ambeon Group."
+  },
+  {
+    "company_name": "BERUWALA RESORTS PLC",
+    "cse_symbol": "BERU",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "The Colombo Fort Land & Building PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cflb.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "The Colombo Fort Land & Building PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cflb.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Property of the Fort Land group."
+  },
+  {
+    "company_name": "ASIA SIYAKA COMMODITIES PLC",
+    "cse_symbol": "ASIY",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lanka Commodity Brokers",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.asiasiyaka.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lanka Commodity Brokers",
+      "ownership_percentage": null,
+      "source": "https://www.asiasiyaka.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Prominent tea broker."
+  },
+  {
+    "company_name": "PRIME FINANCE PLC",
+    "cse_symbol": "GSF",
+    "data_source_date": "2022-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": "HNB Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://www.hnbfinance.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Acquired by HNB Finance and absorbed."
+  },
+  {
+    "company_name": "HIKKADUWA BEACH RESORT PLC",
+    "cse_symbol": "CITH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Citrus Leisure PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.citrusleisure.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Citrus Leisure PLC",
+      "ownership_percentage": null,
+      "source": "https://www.citrusleisure.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Citrus group property."
+  },
+  {
+    "company_name": "AITKEN SPENCE PLANTATION MANAGEMENTS PLC",
+    "cse_symbol": "ASPM",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Aitken Spence PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.aitkenspence.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Aitken Spence PLC",
+      "ownership_percentage": null,
+      "source": "https://www.aitkenspence.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Elpitiya Plantations PLC",
+        "ownership_percentage": 60.5,
+        "is_listed": true,
+        "cse_symbol": "ELPL",
+        "source": "https://www.aitkenspence.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Management company for Elpitiya Plantations."
+  },
+  {
+    "company_name": "ANILANA HOTELS AND PROPERTIES PLC",
+    "cse_symbol": "ALHP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Somapala Group / Individuals",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Struggling hotel property group."
+  },
+  {
+    "company_name": "MILLENNIUM HOUSING DEVELOPERS PLC",
+    "cse_symbol": "MHDL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Nawaloka Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.millenniumhousing.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Nawaloka Group",
+      "ownership_percentage": null,
+      "source": "https://www.millenniumhousing.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Housing development arm acquired by Nawaloka."
+  },
+  {
+    "company_name": "AMANA BANK PLC",
+    "cse_symbol": "ABL",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "IB Growth Fund (Labuan) LLP",
+        "ownership_percentage": 29.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.amanabank.lk/"
+      },
+      {
+        "shareholder_name": "Jeddah Islamic Development Bank",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.amanabank.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.amanabank.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Islamic Bank supported by Middle-Eastern funds."
+  },
+  {
+    "company_name": "ABANS PLC",
+    "cse_symbol": "ABNS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Abans Retail Holdings / Pestonjee Family",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://abansgroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://abansgroup.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Abans Electricals PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "ABAN",
+        "source": "https://abansgroup.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Unlisted at ordinary level, debentures listed."
+  },
+  {
+    "company_name": "ALUMEX PLC",
+    "cse_symbol": "ALUM",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys PLC",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.alumexgroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys PLC",
+      "ownership_percentage": 51.0,
+      "source": "https://www.alumexgroup.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Aluminium extrusion subsidiary of Hayleys."
+  },
+  {
+    "company_name": "BANSEI ROYAL RESORTS HIKKADUWA PLC",
+    "cse_symbol": "BRR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Bansei Securities Co. Ltd (Japan)",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.bansei-resorts.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Bansei Securities Co. Ltd",
+      "ownership_percentage": 51.0,
+      "source": "https://www.bansei-resorts.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Japanese Bansei group owns the majority."
+  },
+  {
+    "company_name": "ADAM INVESTMENTS PLC",
+    "cse_symbol": "AINV",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Suspended entity."
+  },
+  {
+    "company_name": "LUCKY LANKA MILK PROCESSING COMPANY PLC",
+    "cse_symbol": "LLMP",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Company operations ceased/suspended."
+  },
+  {
+    "company_name": "JANASHAKTHI PLC",
+    "cse_symbol": "JANA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Schaffter Family",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.janashakthi.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.janashakthi.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Janashakthi Insurance PLC",
+        "ownership_percentage": 79.4,
+        "is_listed": true,
+        "cse_symbol": "JINS",
+        "source": "https://www.janashakthi.com/"
+      },
+      {
+        "name": "First Capital Holdings PLC",
+        "ownership_percentage": 83.0,
+        "is_listed": true,
+        "cse_symbol": "CFVF",
+        "source": "https://www.janashakthi.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Top-level holding company for Schaffter's financial groups."
+  },
+  {
+    "company_name": "ARPICO INSURANCE PLC",
+    "cse_symbol": "AINS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Richard Pieris and Company PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://arpicoinsurance.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Richard Pieris and Company PLC",
+      "ownership_percentage": null,
+      "source": "https://arpicoinsurance.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Insurance arm of the Arpico Group."
+  },
+  {
+    "company_name": "SIYAPATHA FINANCE PLC",
+    "cse_symbol": "SLFL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Sampath Bank PLC",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://siyapatha.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Sampath Bank PLC",
+      "ownership_percentage": 100.0,
+      "source": "https://siyapatha.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Wholly owned finance subsidiary of Sampath Bank."
+  },
+  {
+    "company_name": "PRADESHIYA SANWARDANA BANK",
+    "cse_symbol": "RDB",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Government of Sri Lanka",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.rdb.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Government of Sri Lanka",
+      "ownership_percentage": 100.0,
+      "source": "https://www.rdb.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.99,
+    "validation_notes": "Fully state-owned regional development bank."
+  },
+  {
+    "company_name": "FIRST CAPITAL TREASURIES PLC",
+    "cse_symbol": "FCT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "First Capital Holdings PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://firstcapital.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "First Capital Holdings PLC",
+      "ownership_percentage": null,
+      "source": "https://firstcapital.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Primary dealer unit of First Capital."
+  },
+  {
+    "company_name": "SINGHE HOSPITALS PLC",
+    "cse_symbol": "SINH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "A. M. W. Navinda",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.singhehospitals.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.singhehospitals.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Regional private hospital located in Ratnapura."
+  },
+  {
+    "company_name": "SENFIN SECURITIES LIMITED",
+    "cse_symbol": "COF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Senkadagala Finance PLC",
+        "ownership_percentage": 100.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.senfinsecurities.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Senkadagala Finance PLC",
+      "ownership_percentage": 100.0,
+      "source": "https://www.senfinsecurities.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Brokerage arm of Senkadagala Finance."
+  },
+  {
+    "company_name": "PEOPLE'S INSURANCE PLC",
+    "cse_symbol": "PINS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "People's Leasing & Finance PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://peoplesinsurance.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "People's Leasing & Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://peoplesinsurance.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Insurance wing of the PLC/People's Bank group."
+  },
+  {
+    "company_name": "AMANA TAKAFUL LIFE PLC",
+    "cse_symbol": "ATLL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Amana Takaful PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.takaful.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Amana Takaful PLC",
+      "ownership_percentage": null,
+      "source": "https://www.takaful.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Life insurance subsidiary of ATL."
+  },
+  {
+    "company_name": "B P P L HOLDINGS PLC",
+    "cse_symbol": "BPPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Infinity Capital (Pvt) Ltd",
+        "ownership_percentage": 50.3,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.bpplholdings.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Infinity Capital (Pvt) Ltd",
+      "ownership_percentage": 50.3,
+      "source": "https://www.bpplholdings.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Eco Spindles (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.bpplholdings.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Controlled by Dr. Anush Amarasinghe through Infinity Capital."
+  }
+]

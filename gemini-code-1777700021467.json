@@ -1,0 +1,1300 @@
+[
+  {
+    "company_name": "MARAWILA RESORTS PLC",
+    "cse_symbol": "MARA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Investments PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Investments PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownshotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Acquired as part of the broader Serendib/Browns leisure consolidation."
+  },
+  {
+    "company_name": "CITRUS LEISURE PLC",
+    "cse_symbol": "REEF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "George Steuart & Company Limited",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.citrusleisure.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "George Steuart & Company Limited",
+      "ownership_percentage": null,
+      "source": "https://www.citrusleisure.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Waskaduwa Beach Resort PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "CITW",
+        "source": "https://www.citrusleisure.com/"
+      },
+      {
+        "name": "Hikkaduwa Beach Resort PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "CITH",
+        "source": "https://www.citrusleisure.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Parent of the Citrus hotel group."
+  },
+  {
+    "company_name": "RENUKA CITY HOTEL PLC",
+    "cse_symbol": "RENU",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Renuka Hotels PLC",
+        "ownership_percentage": 61.7,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.renukahotel.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Renuka Hotels PLC",
+      "ownership_percentage": 61.7,
+      "source": "https://www.renukahotel.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [
+      {
+        "target_company": "Cargo Boat Development Company PLC",
+        "cse_symbol": "CABO",
+        "ownership_percentage": null,
+        "source": "https://www.renukahotel.com/"
+      }
+    ],
+    "confidence": 0.95,
+    "validation_notes": "A subsidiary of Renuka Hotels PLC."
+  },
+  {
+    "company_name": "ROYAL PALMS BEACH HOTELS PLC",
+    "cse_symbol": "RPBH",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Tangerine Beach Hotels PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://tangerinehotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Tangerine Beach Hotels PLC",
+      "ownership_percentage": null,
+      "source": "https://tangerinehotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Part of the Tangerine Group."
+  },
+  {
+    "company_name": "DOLPHIN HOTELS PLC",
+    "cse_symbol": "STAF",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Serendib Hotels PLC",
+        "ownership_percentage": 65.18,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Serendib Hotels PLC",
+      "ownership_percentage": 65.18,
+      "source": "https://www.brownshotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Acquired by Browns Investments through the Serendib acquisition."
+  },
+  {
+    "company_name": "TANGERINE BEACH HOTELS PLC",
+    "cse_symbol": "TANG",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Mercantile Investments and Finance PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://tangerinehotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Mercantile Investments and Finance PLC",
+      "ownership_percentage": null,
+      "source": "https://tangerinehotels.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Royal Palms Beach Hotels PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "RPBH",
+        "source": "https://tangerinehotels.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Core hotel company of the Tangerine/Mercantile Group."
+  },
+  {
+    "company_name": "CEYLON GUARDIAN INVESTMENT TRUST PLC",
+    "cse_symbol": "GUAR",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Carson Cumberbatch PLC",
+        "ownership_percentage": 67.15,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Carson Cumberbatch PLC",
+      "ownership_percentage": 67.15,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Ceylon Investment PLC",
+        "ownership_percentage": 64.36,
+        "is_listed": true,
+        "cse_symbol": "CINV",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Investment arm of the Carsons group."
+  },
+  {
+    "company_name": "COLOMBO FORT INVESTMENTS PLC",
+    "cse_symbol": "CFI",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "The Colombo Fort Land & Building PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cflb.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "The Colombo Fort Land & Building PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cflb.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Investment vehicle for CFLB."
+  },
+  {
+    "company_name": "SIGIRIYA VILLAGE HOTELS PLC",
+    "cse_symbol": "SIGV",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Serendib Hotels PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Serendib Hotels PLC",
+      "ownership_percentage": null,
+      "source": "https://www.brownshotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Part of Browns Hotels portfolio."
+  },
+  {
+    "company_name": "CEYLON INVESTMENT PLC",
+    "cse_symbol": "CINV",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ceylon Guardian Investment Trust PLC",
+        "ownership_percentage": 64.36,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ceylon Guardian Investment Trust PLC",
+      "ownership_percentage": 64.36,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Subsidiary investment vehicle of GUAR."
+  },
+  {
+    "company_name": "COLOMBO INVESTMENT TRUST PLC",
+    "cse_symbol": "CIT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "The Colombo Fort Land & Building PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cflb.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "The Colombo Fort Land & Building PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cflb.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Investment vehicle for CFLB."
+  },
+  {
+    "company_name": "SERENDIB HOTELS PLC",
+    "cse_symbol": "SHOT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Browns Investments PLC",
+        "ownership_percentage": 56.67,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Browns Investments PLC",
+      "ownership_percentage": 56.67,
+      "source": "https://www.brownshotels.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Dolphin Hotels PLC",
+        "ownership_percentage": 65.18,
+        "is_listed": true,
+        "cse_symbol": "STAF",
+        "source": "https://www.brownshotels.com/"
+      },
+      {
+        "name": "Hotel Sigiriya PLC",
+        "ownership_percentage": 62.93,
+        "is_listed": true,
+        "cse_symbol": "HSIG",
+        "source": "https://www.brownshotels.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Acquired by LOLC/Browns from Hemas."
+  },
+  {
+    "company_name": "TAL LANKA HOTELS PLC",
+    "cse_symbol": "TAJ",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "TAL Hotels & Resorts Ltd",
+        "ownership_percentage": 58.14,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.tajhotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "TAL Hotels & Resorts Ltd",
+      "ownership_percentage": 58.14,
+      "source": "https://www.tajhotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Operates Taj Samudra Colombo."
+  },
+  {
+    "company_name": "TRANS ASIA HOTELS PLC",
+    "cse_symbol": "TRAN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "John Keells Holdings PLC",
+        "ownership_percentage": 92.51,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cinnamonhotels.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "John Keells Holdings PLC",
+      "ownership_percentage": 92.51,
+      "source": "https://www.cinnamonhotels.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Operates Cinnamon Lakeside Colombo."
+  },
+  {
+    "company_name": "GALLE FACE CAPITAL PARTNERS PLC",
+    "cse_symbol": "WAPO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Galle Face Group",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Galle Face Group",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Formerly Waskaduwa Beach Resort holding, renamed."
+  },
+  {
+    "company_name": "JANASHAKTHI PLC",
+    "cse_symbol": "CSEC",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Schaffter Family",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.janashakthi.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.janashakthi.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Janashakthi Insurance PLC",
+        "ownership_percentage": 79.4,
+        "is_listed": true,
+        "cse_symbol": "JINS",
+        "source": "https://www.janashakthi.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Holding company for the Janashakthi Group."
+  },
+  {
+    "company_name": "C T LAND DEVELOPMENT PLC",
+    "cse_symbol": "CTLD",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "C T Holdings PLC",
+        "ownership_percentage": 67.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.ctholdings.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "C T Holdings PLC",
+      "ownership_percentage": 67.0,
+      "source": "https://www.ctholdings.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Real estate arm of CT Holdings."
+  },
+  {
+    "company_name": "CARGO BOAT DEVELOPMENT COMPANY PLC",
+    "cse_symbol": "CABO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Renuka Hotels PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.renukahotel.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Renuka Hotels PLC",
+      "ownership_percentage": null,
+      "source": "https://www.renukahotel.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Property development company linked to Renuka Hotels."
+  },
+  {
+    "company_name": "COMMERCIAL DEVELOPMENT COMPANY PLC",
+    "cse_symbol": "COMD",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Commercial Bank of Ceylon PLC",
+        "ownership_percentage": 93.85,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.combank.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Commercial Bank of Ceylon PLC",
+      "ownership_percentage": 93.85,
+      "source": "https://www.combank.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Property holding company for Commercial Bank."
+  },
+  {
+    "company_name": "SEYLAN DEVELOPMENTS PLC",
+    "cse_symbol": "CSD",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Seylan Bank PLC",
+        "ownership_percentage": 70.51,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.seylan.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Seylan Bank PLC",
+      "ownership_percentage": 70.51,
+      "source": "https://www.seylan.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Property holding company for Seylan Bank."
+  },
+  {
+    "company_name": "COLOMBO LAND & DEVELOPMENT COMPANY PLC",
+    "cse_symbol": "CLND",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Urban Development Authority (UDA)",
+        "ownership_percentage": 17.3,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Joint venture initially, significant GoSL stake."
+  },
+  {
+    "company_name": "CITY HOUSING & REAL ESTATE CO. PLC",
+    "cse_symbol": "CHOU",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.6,
+    "validation_notes": "Trading suspended for compliance issues."
+  },
+  {
+    "company_name": "OVERSEAS REALTY (CEYLON) PLC",
+    "cse_symbol": "OSEA",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Shing Kwan Investment (Singapore) Pte Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.orcl.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Shing Kwan Group",
+      "ownership_percentage": null,
+      "source": "https://www.orcl.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Mireka Capital Land (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.orcl.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Owners of World Trade Center Colombo and Havelock City."
+  },
+  {
+    "company_name": "SERENDIB ENGINEERING GROUP PLC",
+    "cse_symbol": "IDL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Subject to ownership changes and restructuring."
+  },
+  {
+    "company_name": "EAST WEST PROPERTIES PLC",
+    "cse_symbol": "EAST",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "M. W. A. D. J. Nahil Wijesuriya",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Wijesuriya family maintains control."
+  },
+  {
+    "company_name": "EQUITY ONE PLC",
+    "cse_symbol": "EQIT",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Carson Cumberbatch PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Carson Cumberbatch PLC",
+      "ownership_percentage": null,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Real estate arm of Carson Cumberbatch."
+  },
+  {
+    "company_name": "KELSEY DEVELOPMENTS PLC",
+    "cse_symbol": "KDL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Janashakthi PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.kelsey.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Janashakthi PLC",
+      "ownership_percentage": null,
+      "source": "https://www.kelsey.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Property development arm of Janashakthi Group."
+  },
+  {
+    "company_name": "LEE HEDGES PLC",
+    "cse_symbol": "SHAW",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lee Hedges Investments Ltd",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lee Hedges Investments Ltd",
+      "ownership_percentage": 51.0,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.85,
+    "validation_notes": "Family owned property holding company."
+  },
+  {
+    "company_name": "HUEJAY INTERNATIONAL INVESTMENTS PLC",
+    "cse_symbol": "HUEJ",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Huejay International Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Huejay International Ltd",
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.8,
+    "validation_notes": "Closely held entity."
+  },
+  {
+    "company_name": "EQUITY TWO PLC",
+    "cse_symbol": "ETWO",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Equity One PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.carsoncumberbatch.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Equity One PLC",
+      "ownership_percentage": null,
+      "source": "https://www.carsoncumberbatch.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Carson Cumberbatch property subsidiary."
+  },
+  {
+    "company_name": "ON ALLY HOLDINGS PLC",
+    "cse_symbol": "ONAL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Urban Development Authority (UDA)",
+        "ownership_percentage": 47.6,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.cse.lk/"
+      },
+      {
+        "shareholder_name": "Renuka Capital PLC",
+        "ownership_percentage": 43.8,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Owners of Unity Plaza. Renuka Capital acquired a major stake."
+  },
+  {
+    "company_name": "SERENDIB LAND PLC",
+    "cse_symbol": "SLND",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Small real estate holder."
+  },
+  {
+    "company_name": "YORK ARCADE HOLDINGS PLC",
+    "cse_symbol": "YORK",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "The Colombo Fort Land & Building PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.cflb.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "The Colombo Fort Land & Building PLC",
+      "ownership_percentage": null,
+      "source": "https://www.cflb.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Property subsidiary of CFLB."
+  },
+  {
+    "company_name": "PROPERTY DEVELOPMENT PLC",
+    "cse_symbol": "PDL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Bank of Ceylon",
+        "ownership_percentage": 95.55,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.boc.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Bank of Ceylon",
+      "ownership_percentage": 95.55,
+      "source": "https://www.boc.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Owner of BOC Headquarters building."
+  },
+  {
+    "company_name": "ACL CABLES PLC",
+    "cse_symbol": "ACL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "U. G. Madanayake",
+        "ownership_percentage": 38.0,
+        "share_count": null,
+        "shareholder_type": "individual",
+        "source": "https://www.acl.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.acl.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Kelani Cables PLC",
+        "ownership_percentage": 79.9,
+        "is_listed": true,
+        "cse_symbol": "KCAB",
+        "source": "https://www.acl.lk/"
+      },
+      {
+        "name": "ACL Plastics PLC",
+        "ownership_percentage": 65.2,
+        "is_listed": true,
+        "cse_symbol": "APLA",
+        "source": "https://www.acl.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Madanayake family holds controlling stake."
+  },
+  {
+    "company_name": "ABANS ELECTRICALS PLC",
+    "cse_symbol": "ABAN",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Abans PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://abansgroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Abans PLC",
+      "ownership_percentage": null,
+      "source": "https://abansgroup.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Manufacturing arm of the Abans Group."
+  },
+  {
+    "company_name": "ACL PLASTICS PLC",
+    "cse_symbol": "APLA",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "ACL Cables PLC",
+        "ownership_percentage": 65.2,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.acl.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "ACL Cables PLC",
+      "ownership_percentage": 65.2,
+      "source": "https://www.acl.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Subsidiary of ACL Cables."
+  },
+  {
+    "company_name": "DANKOTUWA PORCELAIN PLC",
+    "cse_symbol": "DPL",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Ambeon Holdings PLC",
+        "ownership_percentage": 72.51,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://dankotuwa.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Ambeon Holdings PLC",
+      "ownership_percentage": 72.51,
+      "source": "https://dankotuwa.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Royal Fernwood Porcelain Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://dankotuwa.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Controlled by the Ambeon group."
+  },
+  {
+    "company_name": "CENTRAL INDUSTRIES PLC",
+    "cse_symbol": "CIND",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Central Finance Company PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://nationalpvc.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Central Finance Company PLC",
+      "ownership_percentage": null,
+      "source": "https://nationalpvc.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Manufacturing arm (National PVC) of Central Finance."
+  },
+  {
+    "company_name": "KELANI CABLES PLC",
+    "cse_symbol": "KCAB",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "ACL Cables PLC",
+        "ownership_percentage": 79.9,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.kelanicables.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "ACL Cables PLC",
+      "ownership_percentage": 79.9,
+      "source": "https://www.kelanicables.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Operates under ACL Group."
+  },
+  {
+    "company_name": "CHEVRON LUBRICANTS LANKA PLC",
+    "cse_symbol": "LLUB",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Chevron Ceylon Limited",
+        "ownership_percentage": 51.0,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://lk.chevronlubricants.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Chevron Ceylon Limited",
+      "ownership_percentage": 51.0,
+      "source": "https://lk.chevronlubricants.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "US-based Chevron maintains majority control."
+  },
+  {
+    "company_name": "KELANI TYRES PLC",
+    "cse_symbol": "TYRE",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Silverstock Ltd",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.kelanityres.com/"
+      }
+    ],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.kelanityres.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [
+      {
+        "name": "CEAT Kelani Holdings (Pvt) Ltd",
+        "ownership_percentage": 50.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.kelanityres.com/"
+      }
+    ],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Key asset is the 50% JV with CEAT India."
+  },
+  {
+    "company_name": "DIPPED PRODUCTS PLC",
+    "cse_symbol": "DIPD",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Hayleys PLC",
+        "ownership_percentage": 42.12,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.dplgroup.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Hayleys PLC",
+      "ownership_percentage": null,
+      "source": "https://www.dplgroup.com/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Venigros (Pvt) Ltd",
+        "ownership_percentage": 100.0,
+        "is_listed": false,
+        "cse_symbol": null,
+        "source": "https://www.dplgroup.com/"
+      },
+      {
+        "name": "Kelani Valley Plantations PLC",
+        "ownership_percentage": null,
+        "is_listed": true,
+        "cse_symbol": "KVAL",
+        "source": "https://www.dplgroup.com/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Glove manufacturing arm of Hayleys, which also holds plantations."
+  },
+  {
+    "company_name": "BLUE DIAMONDS JEWELLERY WORLDWIDE PLC",
+    "cse_symbol": "BLUE",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [],
+    "parent_company": {
+      "name": null,
+      "ownership_percentage": null,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.7,
+    "validation_notes": "Fragmented ownership."
+  },
+  {
+    "company_name": "LANKA CEMENT PLC",
+    "cse_symbol": "LCEM",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Sri Lanka Cement Corporation",
+        "ownership_percentage": 62.13,
+        "share_count": null,
+        "shareholder_type": "government",
+        "source": "https://www.cse.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Sri Lanka Cement Corporation",
+      "ownership_percentage": 62.13,
+      "source": "https://www.cse.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "State-owned, non-operational/restructuring entity."
+  },
+  {
+    "company_name": "BOGALA GRAPHITE LANKA PLC",
+    "cse_symbol": "BOGA",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Advanced Metallurgical Group (AMG)",
+        "ownership_percentage": 79.4,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://bogalagraphite.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "AMG Advanced Metallurgical Group N.V.",
+      "ownership_percentage": 79.4,
+      "source": "https://bogalagraphite.lk/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "German/Dutch entity AMG holds the majority."
+  },
+  {
+    "company_name": "CEYLON GRAIN ELEVATORS PLC",
+    "cse_symbol": "GRAN",
+    "data_source_date": "2024-12-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Prima Limited (Singapore)",
+        "ownership_percentage": 45.45,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.prima.com.lk/"
+      }
+    ],
+    "parent_company": {
+      "name": "Prima Limited",
+      "ownership_percentage": 45.45,
+      "source": "https://www.prima.com.lk/"
+    },
+    "subsidiaries": [
+      {
+        "name": "Three Acre Farms PLC",
+        "ownership_percentage": 57.21,
+        "is_listed": true,
+        "cse_symbol": "TAFL",
+        "source": "https://www.prima.com.lk/"
+      }
+    ],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Flagship entity of Prima Group in Sri Lanka."
+  },
+  {
+    "company_name": "SWISSTEK (CEYLON) PLC",
+    "cse_symbol": "PARQ",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "Lanka Walltiles PLC",
+        "ownership_percentage": 51.52,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://swisstekceylon.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "Lanka Walltiles PLC",
+      "ownership_percentage": 51.52,
+      "source": "https://swisstekceylon.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.95,
+    "validation_notes": "Part of the Vallibel/Royal Ceramics group."
+  },
+  {
+    "company_name": "ACME PRINTING & PACKAGING PLC",
+    "cse_symbol": "ACME",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "E. B. Creasy & Company PLC",
+        "ownership_percentage": null,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://www.acmepak.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "E. B. Creasy & Company PLC",
+      "ownership_percentage": null,
+      "source": "https://www.acmepak.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.9,
+    "validation_notes": "Acquired by the Lankem/Fort Land group via EB Creasy."
+  },
+  {
+    "company_name": "PGP GLASS CEYLON PLC",
+    "cse_symbol": "GLAS",
+    "data_source_date": "2024-03-31",
+    "major_shareholders": [
+      {
+        "shareholder_name": "PGP Glass Private Limited",
+        "ownership_percentage": 56.45,
+        "share_count": null,
+        "shareholder_type": "institutional",
+        "source": "https://pgpglassceylon.com/"
+      }
+    ],
+    "parent_company": {
+      "name": "PGP Glass Private Limited",
+      "ownership_percentage": 56.45,
+      "source": "https://pgpglassceylon.com/"
+    },
+    "subsidiaries": [],
+    "associate_companies": [],
+    "investments_in_listed_companies": [],
+    "confidence": 0.98,
+    "validation_notes": "Formerly Piramal Glass. Now under Blackstone-backed PGP Glass."
+  }
+]
