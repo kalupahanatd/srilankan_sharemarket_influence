@@ -187,16 +187,16 @@ physics_model = st.sidebar.selectbox(
 edge_length = st.sidebar.slider(
     "Edge length / spacing",
     min_value=100,
-    max_value=800,
-    value=360,
+    max_value=1000,
+    value=400,
     step=20
 )
 
 node_spacing = st.sidebar.slider(
     "Node repulsion",
-    min_value=-180000,
+    min_value=-250000,
     max_value=-5000,
-    value=-90000,
+    value=-120000,
     step=5000
 )
 
@@ -210,8 +210,13 @@ show_edge_labels = st.sidebar.checkbox(
     value=True
 )
 
+show_physics_panel = st.sidebar.checkbox(
+    "Show PyVis tuning panel",
+    value=True
+)
+
 st.sidebar.markdown("---")
-st.sidebar.caption("Recommended: Hierarchical view, depth 3, edge length 400, max edges 800–1500.")
+st.sidebar.caption("For manual tuning, use Network graph + Show PyVis tuning panel.")
 
 # =========================================================
 # VISUAL HELPERS
@@ -267,9 +272,10 @@ def build_pyvis_graph(
     rows,
     layout_mode="Separated / readable",
     show_labels=True,
-    edge_length=360,
-    node_spacing=-90000,
-    hierarchical=False
+    edge_length=400,
+    node_spacing=-120000,
+    hierarchical=False,
+    show_physics_panel=False
 ):
     net = Network(
         height="850px",
@@ -359,8 +365,8 @@ def build_pyvis_graph(
               "direction": "UD",
               "sortMethod": "directed",
               "levelSeparation": {edge_length},
-              "nodeSpacing": 260,
-              "treeSpacing": 360,
+              "nodeSpacing": 320,
+              "treeSpacing": 420,
               "blockShifting": true,
               "edgeMinimization": true,
               "parentCentralization": true
@@ -401,18 +407,18 @@ def build_pyvis_graph(
         if layout_mode == "Separated / readable":
             net.barnes_hut(
                 gravity=node_spacing,
-                central_gravity=0.03,
+                central_gravity=0.025,
                 spring_length=edge_length,
-                spring_strength=0.012,
+                spring_strength=0.010,
                 damping=0.12
             )
 
         elif layout_mode == "Wide spread":
             net.barnes_hut(
-                gravity=int(node_spacing * 1.5),
-                central_gravity=0.02,
-                spring_length=edge_length + 120,
-                spring_strength=0.008,
+                gravity=int(node_spacing * 1.7),
+                central_gravity=0.015,
+                spring_length=edge_length + 180,
+                spring_strength=0.007,
                 damping=0.10
             )
 
@@ -420,47 +426,58 @@ def build_pyvis_graph(
             net.barnes_hut(
                 gravity=-15000,
                 central_gravity=0.25,
-                spring_length=max(120, edge_length - 150),
+                spring_length=max(120, edge_length - 180),
                 spring_strength=0.04,
                 damping=0.09
             )
 
-        net.set_options("""
-        {
-          "nodes": {
+        net.set_options(f"""
+        {{
+          "nodes": {{
             "borderWidth": 1,
-            "font": {
+            "font": {{
               "size": 16,
               "face": "Arial"
-            }
-          },
-          "edges": {
-            "font": {
+            }}
+          }},
+          "edges": {{
+            "font": {{
               "size": 12,
               "align": "middle"
-            },
-            "smooth": {
+            }},
+            "smooth": {{
               "enabled": true,
               "type": "dynamic"
-            }
-          },
-          "physics": {
+            }}
+          }},
+          "physics": {{
             "enabled": true,
-            "stabilization": {
+            "barnesHut": {{
+              "gravitationalConstant": {node_spacing},
+              "centralGravity": 0.025,
+              "springLength": {edge_length},
+              "springConstant": 0.010,
+              "damping": 0.12,
+              "avoidOverlap": 0.6
+            }},
+            "stabilization": {{
               "enabled": true,
               "iterations": 300,
               "updateInterval": 25
-            }
-          },
-          "interaction": {
+            }}
+          }},
+          "interaction": {{
             "hover": true,
             "navigationButtons": true,
             "keyboard": true,
             "zoomView": true,
             "dragView": true
-          }
-        }
+          }}
+        }}
         """)
+
+    if show_physics_panel and not hierarchical:
+        net.show_buttons(filter_=["physics"])
 
     return net
 
@@ -666,7 +683,8 @@ else:
             show_labels=show_edge_labels,
             edge_length=edge_length,
             node_spacing=node_spacing,
-            hierarchical=False
+            hierarchical=False,
+            show_physics_panel=show_physics_panel
         )
         render_graph(net)
 
@@ -677,7 +695,8 @@ else:
             show_labels=show_edge_labels,
             edge_length=edge_length,
             node_spacing=node_spacing,
-            hierarchical=True
+            hierarchical=True,
+            show_physics_panel=False
         )
         render_graph(net)
 
